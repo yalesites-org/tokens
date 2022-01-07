@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@commitlint/config-conventional'],
+  extends: ['@yalesites/config-commitlint'],
 };
