@@ -26,5 +26,5 @@ jobs:
         run: npm run semantic-release
       - name: Publish
         env:
-          NPM_TOKEN: ${{secrets.YALESITES_BUILD_TOKEN}}
+          YALESITES_BUILD_TOKEN: ${{secrets.YALESITES_BUILD_TOKEN}}
         run: npm publish
