@@ -24,7 +24,3 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           YALESITES_BUILD_TOKEN: ${{secrets.YALESITES_BUILD_TOKEN}}
         run: npm run semantic-release
-      - name: Publish
-        env:
-          YALESITES_BUILD_TOKEN: ${{secrets.YALESITES_BUILD_TOKEN}}
-        run: npm publish
