@@ -1,3 +1,5 @@
 module.exports = {
-  extends: ['@yalesites/config-commitlint'],
+  extends: [
+    "@yalesites-org/eslint-config-and-other-formatting/commitlint.config",
+  ],
 };
