@@ -16,6 +16,8 @@ jobs:
           node-version: 16.13
       - name: Install
         run: npm ci
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - name: Release
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
