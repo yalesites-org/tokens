@@ -17,8 +17,8 @@ jobs:
       - name: Install
         run: npm ci
         env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          NPM_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.TEMP_YALESITES_BUILD_TOKEN}}
+          NPM_TOKEN: ${{secrets.TEMP_YALESITES_BUILD_TOKEN}}
       - name: Release
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
