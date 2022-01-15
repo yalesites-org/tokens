@@ -24,7 +24,7 @@ jobs:
       - name: Commit build directory
         uses: EndBug/add-and-commit@v7
         with:
-          message: 'Committing Build'
+          message: 'build: committing build directory'
           add: 'build --force'
       - name: Release
         env:
