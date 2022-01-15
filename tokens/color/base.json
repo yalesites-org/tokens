@@ -1,0 +1,35 @@
+{
+  "color": {
+    "yale": {
+      "black-gray": { "value": "#222222" },
+      "gray": {
+        "dark": { "value": "#4a4a4a" },
+        "brown": { "value": "#787878" },
+        "base": { "value": "#dddddd" },
+        "light": { "value": "#f9f9f9" }
+      },
+      "beige": { "value": "#fcf5eb" },
+      "white": { "value": "#ffffff" },
+      "blue": {
+        "yale": { "value": "#00356b" },
+        "mid": { "value": "#286dc0" },
+        "light": { "value": "#63aaff" }
+      }
+    },
+    "new-haven-green": {
+      "primary": { "value": "#497a10" },
+      "secondary": { "value": "#dbb60f" },
+      "tertiary": { "value": "#f7fdd2" }
+    },
+    "blue-stone": {
+      "primary": { "value": "#00616b" },
+      "secondary": { "value": "#ff9511" },
+      "tertiary": { "value": "#bdffcf" }
+    },
+    "muted-elm-city": {
+      "primary": { "value": "#78534b" },
+      "secondary": { "value": "#def3c5" },
+      "tertiary": { "value": "#fcefc5" }
+    }
+  }
+}
