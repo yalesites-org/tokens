@@ -19,6 +19,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           YALESITES_BUILD_TOKEN: ${{secrets.YALESITES_BUILD_TOKEN}}
+      - name: Build Storybook
+        run: npm run build
       - name: Release
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
