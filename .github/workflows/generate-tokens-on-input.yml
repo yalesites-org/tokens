@@ -26,4 +26,4 @@ jobs:
         id: "auto-commit-action"
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'build: Update design tokens'
+          commit_message: 'build: update design tokens'
