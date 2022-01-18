@@ -1,12 +1,12 @@
-name: Create Release
+name: Generate Tokens on Input
 
 on:
   push:
     paths:
-      - 'build/**'
+      - 'tokens/**/*.json'
 
 jobs:
-  release:
+  generate_tokens:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -19,10 +19,11 @@ jobs:
       - name: Install Node Dependencies
         run: npm ci
         env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           YALESITES_BUILD_TOKEN: ${{secrets.YALESITES_BUILD_TOKEN}}
-      - name: Release
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          YALESITES_BUILD_TOKEN: ${{secrets.YALESITES_BUILD_TOKEN}}
-        run: npm run semantic-release
+      - name: Build Style Dictionary
+        run: npm run build
+      - name: Commit Generated Platform Deliverables
+        id: "auto-commit-action"
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'build: Update design tokens'
