@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Tue, 18 Jan 2022 12:20:54 GMT
+ * Generated on Tue, 18 Jan 2022 12:32:27 GMT
  */
 
 :root {
-  --size-font-large: 1.4rem; /* the large size of the font */
+  --size-font-large: 1rem; /* the large size of the font */
   --size-font-medium: 1rem; /* the medium size of the font */
   --size-font-small: 0.75rem; /* the small size of the font */
   --color-muted-elm-city-tertiary: hsl(46, 90%, 88%);
