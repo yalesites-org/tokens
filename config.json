@@ -1,11 +1,11 @@
 {
   "source": ["tokens/**/*.json"],
   "platforms": {
-    "scss": {
-      "transformGroup": "css",
+    "css": {
+      "transforms": ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "size/rem", "color/hsl"],
       "buildPath": "build/css/",
       "files": [{
-        "destination": "_variables.scss",
+        "destination": "_variables.css",
         "format": "css/variables"
       }],
       "options": {
@@ -13,7 +13,7 @@
       }
     },
     "json": {
-      "transformGroup": "js",
+      "transforms": ["attribute/cti", "name/cti/pascal", "time/seconds", "content/icon", "size/rem", "color/hsl"],
       "buildPath": "build/json/",
       "files": [{
         "destination": "tokens.json",
