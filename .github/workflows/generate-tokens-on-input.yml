@@ -26,5 +26,6 @@ jobs:
         uses: EndBug/add-and-commit@v7
         with:
           branch: release
+          branch_mode: create
           add: 'build -f'
           message: 'build: update design tokens'
