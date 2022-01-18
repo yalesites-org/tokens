@@ -1,9 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Tue, 18 Jan 2022 11:53:11 GMT
+ * Generated on Tue, 18 Jan 2022 12:20:54 GMT
  */
 
 :root {
+  --size-font-large: 1.4rem; /* the large size of the font */
+  --size-font-medium: 1rem; /* the medium size of the font */
+  --size-font-small: 0.75rem; /* the small size of the font */
   --color-muted-elm-city-tertiary: hsl(46, 90%, 88%);
   --color-muted-elm-city-secondary: hsl(87, 66%, 86%);
   --color-muted-elm-city-primary: hsl(11, 23%, 38%);
@@ -23,4 +26,5 @@
   --color-yale-gray-brown: hsl(0, 0%, 47%);
   --color-yale-gray-dark: hsl(0, 0%, 29%);
   --color-yale-black-gray: hsl(0, 0%, 13%);
+  --size-font-base: var(--size-font-medium); /* the base size of the font */
 }
