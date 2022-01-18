@@ -26,5 +26,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: release
+          file_pattern: build
           add_options: '-f'
           commit_message: 'build: update design tokens'
