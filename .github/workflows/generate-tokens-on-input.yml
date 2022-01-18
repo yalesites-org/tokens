@@ -23,9 +23,8 @@ jobs:
         run: npm run build
       - name: Commit Generated Platform Deliverables
         id: "auto-commit-action"
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: EndBug/add-and-commit@v7
         with:
           branch: release
-          file_pattern: build
-          add_options: '-f'
+          add: 'build -f'
           commit_message: 'build: update design tokens'
