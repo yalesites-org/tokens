@@ -29,3 +29,4 @@ jobs:
           branch_mode: create
           add: 'build -f'
           message: 'build: update design tokens'
+          push: origin release --force
