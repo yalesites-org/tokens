@@ -27,4 +27,4 @@ jobs:
         with:
           branch: release
           add: 'build -f'
-          commit_message: 'build: update design tokens'
+          message: 'build: update design tokens'
