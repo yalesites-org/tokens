@@ -13,6 +13,9 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
+  "files": [
+    "build"
+  ],
   "scripts": {
     "build": "style-dictionary build",
     "husky:commit-msg": "commitlint --edit $1",
