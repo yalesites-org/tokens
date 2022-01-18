@@ -10,7 +10,7 @@
         "comment": "the medium size of the font"
       },
       "large" : {
-        "value": "1.8",
+        "value": "1.9",
         "comment": "the large size of the font"
       },
       "base"  : {

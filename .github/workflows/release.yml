@@ -1,10 +1,5 @@
 name: Create Release
 
-# on:
-#   push:
-#     branches: [release]
-
-# Only trigger, when the build workflow succeeded
 on:
   workflow_run:
     workflows: ["Generate Tokens on Input"]
