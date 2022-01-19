@@ -21,10 +21,10 @@ jobs:
           ref: 'main'
           fetch-depth: 0
           token: ${{secrets.YALESITES_BUILD_TOKEN}}
-      - name: Install Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 16.13
+      # - name: Install Node.js
+      #   uses: actions/setup-node@v2
+      #   with:
+      #     node-version: 16.13
       - name: Install Node Dependencies
         run: npm ci
         env:
