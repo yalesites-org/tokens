@@ -2,6 +2,8 @@ name: Generate Tokens on Input
 
 on:
   push:
+    branches:
+      - develop
     paths:
       - 'tokens/**/*.json'
 
