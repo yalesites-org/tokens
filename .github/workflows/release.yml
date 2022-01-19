@@ -1,29 +1,29 @@
-# name: Create Release
+name: Create Release
 
-# on:
-#   workflow_run:
-#     workflows: ["Generate Tokens on Input"]
-#     types:
-#       - completed
+on:
+  workflow_run:
+    workflows: ["Generate Tokens on Input"]
+    types:
+      - completed
 
-# jobs:
-#   release:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Checkout
-#         uses: actions/checkout@v2
-#         with:
-#           ref: 'main'
-#       - name: Install Node.js
-#         uses: actions/setup-node@v2
-#         with:
-#           node-version: 16.13
-#       - name: Install Node Dependencies
-#         run: npm ci
-#         env:
-#           YALESITES_BUILD_TOKEN: ${{secrets.YALESITES_BUILD_TOKEN}}
-#       - name: Release
-#         env:
-#           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-#           YALESITES_BUILD_TOKEN: ${{secrets.YALESITES_BUILD_TOKEN}}
-#         run: npm run semantic-release
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: 'main'
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.13
+      - name: Install Node Dependencies
+        run: npm ci
+        env:
+          YALESITES_BUILD_TOKEN: ${{secrets.YALESITES_BUILD_TOKEN}}
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          YALESITES_BUILD_TOKEN: ${{secrets.YALESITES_BUILD_TOKEN}}
+        run: npm run semantic-release
