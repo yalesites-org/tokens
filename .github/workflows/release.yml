@@ -19,6 +19,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           ref: 'main'
+          token: ${{secrets.YALESITES_BUILD_TOKEN}}
       - name: Install Node.js
         uses: actions/setup-node@v2
         with:
