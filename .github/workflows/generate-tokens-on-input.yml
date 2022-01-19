@@ -29,8 +29,6 @@ jobs:
         id: "auto-commit-action"
         uses: EndBug/add-and-commit@v7
         with:
-          branch: main
-          branch_mode: create
           add: 'build -f'
           message: 'build: update design tokens'
-          push: origin main --force
+          push: origin main
