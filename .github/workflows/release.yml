@@ -18,7 +18,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          ref: 'release'
+          ref: 'develop'
           fetch-depth: 0
           token: ${{secrets.YALESITES_BUILD_TOKEN}}
       - name: Install Node.js
