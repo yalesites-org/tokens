@@ -1,15 +1,15 @@
 name: Create Release
 
-on:
-  workflow_run:
-    workflows: ["Generate Tokens on Input"]
-    types:
-      - completed
-
 # on:
-#   push:
-#     branches:
-#       - release
+#   workflow_run:
+#     workflows: ["Generate Tokens on Input"]
+#     types:
+#       - completed
+
+on:
+  push:
+    branches:
+      - release
 
 jobs:
   release:
