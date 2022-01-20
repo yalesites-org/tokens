@@ -34,6 +34,16 @@ jobs:
       #     add: 'build -f'
       #     message: 'build: update design tokens'
       #     push: origin main --force
+      - name: Copy Release Config
+        uses: canastro/copy-file-action@master
+        with:
+          source: "release.config.js"
+          target: "build/release.config.js"
+      - name: Copy Package.json
+        uses: canastro/copy-file-action@master
+        with:
+          source: "package.json"
+          target: "build/package.json"
       - name: Deploy
         uses: s0/git-publish-subdir-action@develop
         env:
