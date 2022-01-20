@@ -26,7 +26,6 @@ jobs:
       - name: Build Style Dictionary
         run: npm run build
       - name: Commit Generated Platform Deliverables
-        id: "auto-commit-action"
         uses: EndBug/add-and-commit@v7
         with:
           add: 'build -f'
@@ -37,7 +36,6 @@ jobs:
           YALESITES_BUILD_TOKEN: ${{secrets.YALESITES_BUILD_TOKEN}}
         run: npm run semantic-release
       - name: Remove Build Directory
-        id: "auto-commit-action"
         uses: EndBug/add-and-commit@v7
         with:
           remove: '--cached -r build'
