@@ -60,4 +60,4 @@ jobs:
           REPO: self
           BRANCH: release
           FOLDER: build
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.YALESITES_BUILD_TOKEN }}
