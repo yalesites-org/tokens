@@ -25,39 +25,39 @@ jobs:
           YALESITES_BUILD_TOKEN: ${{secrets.YALESITES_BUILD_TOKEN}}
       - name: Build Style Dictionary
         run: npm run build
-      # - name: Commit Generated Platform Deliverables
-      #   id: "auto-commit-action"
-      #   uses: EndBug/add-and-commit@v7
+      - name: Commit Generated Platform Deliverables
+        id: "auto-commit-action"
+        uses: EndBug/add-and-commit@v7
+        with:
+          branch: release
+          branch_mode: create
+          add: 'build -f'
+          message: 'build: update design tokens'
+          push: origin release --force
+      # - name: Copy Release Config
+      #   uses: canastro/copy-file-action@master
       #   with:
-      #     branch: main
-      #     branch_mode: create
-      #     add: 'build -f'
-      #     message: 'build: update design tokens'
-      #     push: origin main --force
-      - name: Copy Release Config
-        uses: canastro/copy-file-action@master
-        with:
-          source: "release.config.js"
-          target: "build/release.config.js"
-      - name: Copy Package.json
-        uses: canastro/copy-file-action@master
-        with:
-          source: "package.json"
-          target: "build/package.json"
-      - name: Copy Package-lock.json
-        uses: canastro/copy-file-action@master
-        with:
-          source: "package-lock.json"
-          target: "build/package-lock.json"
-      - name: Copy .npmrc
-        uses: canastro/copy-file-action@master
-        with:
-          source: ".npmrc"
-          target: "build/.npmrc"
-      - name: Deploy
-        uses: s0/git-publish-subdir-action@develop
-        env:
-          REPO: self
-          BRANCH: release
-          FOLDER: build
-          GITHUB_TOKEN: ${{ secrets.YALESITES_BUILD_TOKEN }}
+      #     source: "release.config.js"
+      #     target: "build/release.config.js"
+      # - name: Copy Package.json
+      #   uses: canastro/copy-file-action@master
+      #   with:
+      #     source: "package.json"
+      #     target: "build/package.json"
+      # - name: Copy Package-lock.json
+      #   uses: canastro/copy-file-action@master
+      #   with:
+      #     source: "package-lock.json"
+      #     target: "build/package-lock.json"
+      # - name: Copy .npmrc
+      #   uses: canastro/copy-file-action@master
+      #   with:
+      #     source: ".npmrc"
+      #     target: "build/.npmrc"
+      # - name: Deploy
+      #   uses: s0/git-publish-subdir-action@develop
+      #   env:
+      #     REPO: self
+      #     BRANCH: release
+      #     FOLDER: build
+      #     GITHUB_TOKEN: ${{ secrets.YALESITES_BUILD_TOKEN }}
