@@ -39,5 +39,5 @@ jobs:
         env:
           REPO: self
           BRANCH: release
-          FOLDER: './'
+          CLEAR_GLOBS_FILE: '.clear-target-files'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
