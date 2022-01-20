@@ -49,6 +49,11 @@ jobs:
         with:
           source: "package-lock.json"
           target: "build/package-lock.json"
+      - name: Copy .npmrc
+        uses: canastro/copy-file-action@master
+        with:
+          source: ".npmrc"
+          target: "build/.npmrc"
       - name: Deploy
         uses: s0/git-publish-subdir-action@develop
         env:
