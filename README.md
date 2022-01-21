@@ -44,19 +44,19 @@ Then you can install the package like any other npm dependency.
 npm install @yalesites-org/tokens
 ```
 
-### Connecting Figma
+## Connecting Figma
 
 <details><summary>How to set up the Figma Token plugin</summary>
 
-1. Install the [Figma Tokens](https://www.figma.com/community/file/867870823554195454/Figma-tokens) plugin.
+1. Install the [Figma Tokens](https://www.figma.com/community/plugin/843461159747178978/Figma-Tokens) plugin.
 2. Navigate to the Figma UI Kit and launch the Figma Tokens plugin.
 3. Go to Sync and under Token Storage, select GitHub.
 4. Click "Add new credentials"
 5. For Repository, enter `yalesites-org/tokens`
 6. For Default Branch, enter `figma`
-   7. For File Path, use `data/tokens.json`
-7. Leave "baseURL" blank.
-8. Click Save
+7. For File Path, use `tokens/tokens.json`
+8. Leave "baseURL" blank.
+9. Click Save
 
 </details>
 
