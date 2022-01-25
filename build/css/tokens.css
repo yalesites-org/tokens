@@ -1,0 +1,57 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 25 Jan 2022 15:57:10 GMT
+ */
+
+:root {
+  --size-spacing-13: 10rem;
+  --size-spacing-12: 6rem;
+  --size-spacing-11: 5rem;
+  --size-spacing-10: 4rem;
+  --size-spacing-9: 3rem;
+  --size-spacing-8: 2.5rem;
+  --size-spacing-7: 2rem;
+  --size-spacing-6: 1.5rem;
+  --size-spacing-5: 1rem;
+  --size-spacing-4: 0.75rem;
+  --size-spacing-3: 0.5rem;
+  --size-spacing-2: 0.25rem;
+  --size-spacing-1: 0.125rem;
+  --size-spacing-0: 0rem;
+  --font-scale-13-14: clamp(0.8125rem, calc(0.12vw + 0.7688rem), 0.875rem);
+  --font-scale-14-15: clamp(0.875rem, calc(0.12vw + 0.8313rem), 0.9375rem);
+  --font-scale-14-16: clamp(0.875rem, calc(0.24vw + 0.7876rem), 1rem);
+  --font-scale-15-18: clamp(0.9375rem, calc(0.36vw + 0.8064rem), 1.125rem);
+  --font-scale-16-19: clamp(1rem, calc(0.36vw + 0.87rem), 1.1875rem);
+  --font-scale-17-20: clamp(1.0625rem, calc(0.36vw + 0.9314rem), 1.25rem);
+  --font-scale-19-24: clamp(1.1875rem, calc(0.61vw + 0.9691rem), 1.5rem);
+  --font-scale-22-27: clamp(1.375rem, calc(0.61vw + 1.16rem), 1.6875rem);
+  --font-scale-22-28: clamp(1.375rem, calc(0.73vw + 1.1129rem), 1.75rem);
+  --font-scale-23-31: clamp(1.4375rem, calc(0.97vw + 1.088rem), 1.9375rem);
+  --font-scale-25-34: clamp(1.5625rem, calc(1.09vw + 1.17rem), 2.125rem);
+  --font-scale-27-37: clamp(1.6875rem, calc(1.21vw + 1.25rem), 2.3125rem);
+  --font-scale-30-43: clamp(1.875rem, calc(1.58vw + 1.31rem), 2.6875rem);
+  --font-scale-33-48: clamp(2.0625rem, calc(1.82vw + 1.41rem), 3rem);
+  --font-scale-38-55: clamp(2.375rem, calc(2.06vw + 1.63rem), 3.4375rem);
+  --font-scale-41-64: clamp(2.5625rem, calc(2.79vw + 1.56rem), 4rem);
+  --font-scale-46-70: clamp(2.875rem, calc(2.91vw + 1.83rem), 4.375rem);
+  --color-muted-elm-city-tertiary: hsl(46, 90%, 88%);
+  --color-muted-elm-city-secondary: hsl(87, 66%, 86%);
+  --color-muted-elm-city-primary: hsl(11, 23%, 38%);
+  --color-blue-stone-tertiary: hsl(136, 100%, 87%);
+  --color-blue-stone-secondary: hsl(33, 100%, 53%);
+  --color-blue-stone-primary: hsl(186, 100%, 21%);
+  --color-new-haven-green-tertiary: hsl(68, 91%, 91%);
+  --color-new-haven-green-secondary: hsl(49, 87%, 46%);
+  --color-new-haven-green-primary: hsl(88, 77%, 27%);
+  --color-yale-blue-light: hsl(213, 100%, 69%);
+  --color-yale-blue-mid: hsl(213, 66%, 45%);
+  --color-yale-blue-yale: hsl(210, 100%, 21%);
+  --color-yale-white: hsl(0, 0%, 100%);
+  --color-yale-beige: hsl(35, 74%, 95%);
+  --color-yale-gray-light: hsl(0, 0%, 98%);
+  --color-yale-gray-base: hsl(0, 0%, 87%);
+  --color-yale-gray-brown: hsl(0, 0%, 47%);
+  --color-yale-gray-dark: hsl(0, 0%, 29%);
+  --color-yale-black-gray: hsl(0, 0%, 13%);
+}
