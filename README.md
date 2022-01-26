@@ -62,12 +62,13 @@ npm install @yalesites-org/tokens
 1. Install the [Figma Tokens](https://www.figma.com/community/plugin/843461159747178978/Figma-Tokens) plugin.
 2. Navigate to the Figma UI Kit and launch the Figma Tokens plugin.
 3. Go to Sync and under Token Storage, select GitHub.
-4. Click "Add new credentials"
-5. In the "Name" field, enter "YaleSites UI Kit"
-6. For Repository, enter `yalesites-org/tokens`
-7. For Default Branch, enter `figma`
-8. For File Path, use `tokens/tokens.json`
-9. Leave "baseURL" blank.
-10. Click Save
+4. Click "Add new credentials" and enter the following:
+   - Name: `YaleSites UI Kit`
+   - Personal Access Token: (Paste the access token you created above)
+   - Repository: `yalesites-org/tokens`
+   - Default Branch: `figma`
+   - File Path: `tokens/figma-export/tokens.json`
+   - baseURL: (leave blank)
+   - Click Save
 
 </details>
