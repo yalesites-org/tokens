@@ -17,7 +17,7 @@
     "build"
   ],
   "scripts": {
-    "build": "style-dictionary build",
+    "build": "style-dictionary build --config ./sd.config.js",
     "husky:commit-msg": "commitlint --edit $1",
     "prepare": "husky install",
     "semantic-release": "semantic-release",
@@ -32,6 +32,7 @@
     "husky": "^7.0.4",
     "lint-staged": "^12.1.6",
     "semantic-release": "^18.0.1",
-    "style-dictionary": "^3.1.1"
+    "style-dictionary": "^3.1.1",
+    "yaml": "^1.10.2"
   }
 }
