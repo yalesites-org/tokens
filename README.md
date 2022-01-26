@@ -43,3 +43,29 @@ Then you can install the package like any other npm dependency.
 ```bash
 npm install @yalesites-org/tokens
 ```
+
+## Connecting Figma
+
+<details><summary>How to set up the Figma Token plugin</summary>
+
+1. Install the [Figma Tokens](https://www.figma.com/community/plugin/843461159747178978/Figma-Tokens) plugin.
+2. Navigate to the Figma UI Kit and launch the Figma Tokens plugin.
+3. Go to Sync and under Token Storage, select GitHub.
+4. Click "Add new credentials"
+5. For Repository, enter `yalesites-org/tokens`
+6. For Default Branch, enter `figma`
+7. For File Path, use `tokens/tokens.json`
+8. Leave "baseURL" blank.
+9. Click Save
+
+</details>
+
+<details><summary>How get a Github Personal Access Token</summary>
+
+1. Go to the [Personal Access Tokens section](https://github.com/settings/tokens) or click on your avatar in the top right, go to Settings > scroll down to Developer Settings > Personal Access Tokens
+2. Generate a new Personal Access Token
+3. Select the "Repo" for the scope and decide for yourself when that token should expire.
+4. Scroll down and click Generate token.
+5. Copy the token. You will only see this once!
+
+</details>
