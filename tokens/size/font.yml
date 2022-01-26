@@ -1,4 +1,4 @@
-# The calculations below were calculated to achieve the smallest size at a
+# The calculations for the scale are used to achieve the smallest size at a
 # screen width of 576px and the largest size at a screen width of 1400.
 # https://planetcalc.com/8110/ is an online calculator to make this easy.
 # Enter 576 and 1400 for the x coordinates, and the desired min and max
@@ -6,38 +6,141 @@
 # rounded to the nearest hundredth and then converted from px to rem by
 # dividing by 16.
 font:
+  faces:
+    YaleNew:
+      value: "'Yale New', serif"
+    MalloryCompact:
+      value: "'Mallory Compact', sans-serif"
+  weights:
+    book:
+      value: "400"
+    medium:
+      value: "500"
+    bold:
+      value: "700"
   scale:
     46-70:
-      value: clamp(2.875rem, calc(2.91vw + 1.83rem), 4.375rem)
+      value: "clamp(2.875rem, calc(2.91vw + 1.83rem), 4.375rem)"
     41-64:
-      value: clamp(2.5625rem, calc(2.79vw + 1.56rem), 4rem)
+      value: "clamp(2.5625rem, calc(2.79vw + 1.56rem), 4rem)"
     38-55:
-      value: clamp(2.375rem, calc(2.06vw + 1.63rem), 3.4375rem)
+      value: "clamp(2.375rem, calc(2.06vw + 1.63rem), 3.4375rem)"
     33-48:
-      value: clamp(2.0625rem, calc(1.82vw + 1.41rem), 3rem)
+      value: "clamp(2.0625rem, calc(1.82vw + 1.41rem), 3rem)"
     30-43:
-      value: clamp(1.875rem, calc(1.58vw + 1.31rem), 2.6875rem)
+      value: "clamp(1.875rem, calc(1.58vw + 1.31rem), 2.6875rem)"
     27-37:
-      value: clamp(1.6875rem, calc(1.21vw + 1.25rem), 2.3125rem)
+      value: "clamp(1.6875rem, calc(1.21vw + 1.25rem), 2.3125rem)"
     25-34:
-      value: clamp(1.5625rem, calc(1.09vw + 1.17rem), 2.125rem)
+      value: "clamp(1.5625rem, calc(1.09vw + 1.17rem), 2.125rem)"
     23-31:
-      value: clamp(1.4375rem, calc(0.97vw + 1.088rem), 1.9375rem)
+      value: "clamp(1.4375rem, calc(0.97vw + 1.088rem), 1.9375rem)"
     22-28:
-      value: clamp(1.375rem, calc(0.73vw + 1.1129rem), 1.75rem)
+      value: "clamp(1.375rem, calc(0.73vw + 1.1129rem), 1.75rem)"
     22-27:
-      value: clamp(1.375rem, calc(0.61vw + 1.16rem), 1.6875rem)
+      value: "clamp(1.375rem, calc(0.61vw + 1.16rem), 1.6875rem)"
     19-24:
-      value: clamp(1.1875rem, calc(0.61vw + 0.9691rem), 1.5rem)
+      value: "clamp(1.1875rem, calc(0.61vw + 0.9691rem), 1.5rem)"
     17-20:
-      value: clamp(1.0625rem, calc(0.36vw + 0.9314rem), 1.25rem)
+      value: "clamp(1.0625rem, calc(0.36vw + 0.9314rem), 1.25rem)"
     16-19:
-      value: clamp(1rem, calc(0.36vw + 0.87rem), 1.1875rem)
+      value: "clamp(1rem, calc(0.36vw + 0.87rem), 1.1875rem)"
     15-18:
-      value: clamp(0.9375rem, calc(0.36vw + 0.8064rem), 1.125rem)
+      value: "clamp(0.9375rem, calc(0.36vw + 0.8064rem), 1.125rem)"
     14-16:
-      value: clamp(0.875rem, calc(0.24vw + 0.7876rem), 1rem)
+      value: "clamp(0.875rem, calc(0.24vw + 0.7876rem), 1rem)"
     14-15:
-      value: clamp(0.875rem, calc(0.12vw + 0.8313rem), 0.9375rem)
+      value: "clamp(0.875rem, calc(0.12vw + 0.8313rem), 0.9375rem)"
     13-14:
-      value: clamp(0.8125rem, calc(0.12vw + 0.7688rem), 0.875rem)
+      value: "clamp(0.8125rem, calc(0.12vw + 0.7688rem), 0.875rem)"
+  styles:
+    h1-yale-new:
+      size: "{ font.scale.46-70.value }"
+      family: "{ font.faces.YaleNew.value }"
+      weight: "{ font.weights.book.value }"
+      value: "{ font.styles.h1-yale-new.weight } { font.styles.h1-yale-new.size } { font.styles.h1-yale-new.family }"
+    h2-yale-new:
+      size: "{ font.scale.38-55.value }"
+      family: "{ font.faces.YaleNew.value }"
+      weight: "{ font.weights.book.value }"
+      value: "{ font.styles.h2-yale-new.weight } { font.styles.h2-yale-new.size } { font.styles.h2-yale-new.family }"
+    h3-yale-new:
+      size: "{ font.scale.30-43.value }"
+      family: "{ font.faces.YaleNew.value }"
+      weight: "{ font.weights.book.value }"
+      value: "{ font.styles.h3-yale-new.weight } { font.styles.h3-yale-new.size } { font.styles.h3-yale-new.family }"
+    h4-yale-new:
+      size: "{ font.scale.25-34.value }"
+      family: "{ font.faces.YaleNew.value }"
+      weight: "{ font.weights.book.value }"
+      value: "{ font.styles.h4-yale-new.weight } { font.styles.h4-yale-new.size } { font.styles.h4-yale-new.family }"
+    h5-yale-new:
+      size: "{ font.scale.22-27.value }"
+      family: "{ font.faces.YaleNew.value }"
+      weight: "{ font.weights.book.value }"
+      value: "{ font.styles.h5-yale-new.weight } { font.styles.h5-yale-new.size } { font.styles.h5-yale-new.family }"
+    h6-yale-new:
+      size: "{ font.scale.16-19.value }"
+      family: "{ font.faces.YaleNew.value }"
+      weight: "{ font.weights.book.value }"
+      value: "{ font.styles.h6-yale-new.weight } { font.styles.h6-yale-new.size } { font.styles.h6-yale-new.family }"
+    h1-mallory-compact-medium:
+      size: "{ font.scale.46-70.value }"
+      family: "{ font.faces.MalloryCompact.value }"
+      weight: "{ font.weights.medium.value }"
+      value: "{ font.styles.h1-mallory-compact-medium.weight } { font.styles.h1-mallory-compact-medium.size } { font.styles.h1-mallory-compact-medium.family }"
+    h2-mallory-compact-medium:
+      size: "{ font.scale.38-55.value }"
+      family: "{ font.faces.MalloryCompact.value }"
+      weight: "{ font.weights.medium.value }"
+      value: "{ font.styles.h2-mallory-compact-medium.weight } { font.styles.h2-mallory-compact-medium.size } { font.styles.h2-mallory-compact-medium.family }"
+    h3-mallory-compact-medium:
+      size: "{ font.scale.30-43.value }"
+      family: "{ font.faces.MalloryCompact.value }"
+      weight: "{ font.weights.medium.value }"
+      value: "{ font.styles.h3-mallory-compact-medium.weight } { font.styles.h3-mallory-compact-medium.size } { font.styles.h3-mallory-compact-medium.family }"
+    h4-mallory-compact-medium:
+      size: "{ font.scale.25-34.value }"
+      family: "{ font.faces.MalloryCompact.value }"
+      weight: "{ font.weights.medium.value }"
+      value: "{ font.styles.h4-mallory-compact-medium.weight } { font.styles.h4-mallory-compact-medium.size } { font.styles.h4-mallory-compact-medium.family }"
+    h5-mallory-compact-medium:
+      size: "{ font.scale.22-27.value }"
+      family: "{ font.faces.MalloryCompact.value }"
+      weight: "{ font.weights.medium.value }"
+      value: "{ font.styles.h5-mallory-compact-medium.weight } { font.styles.h5-mallory-compact-medium.size } { font.styles.h5-mallory-compact-medium.family }"
+    h6-mallory-compact-medium:
+      size: "{ font.scale.16-19.value }"
+      family: "{ font.faces.MalloryCompact.value }"
+      weight: "{ font.weights.medium.value }"
+      value: "{ font.styles.h6-mallory-compact-medium.weight } { font.styles.h6-mallory-compact-medium.size } { font.styles.h6-mallory-compact-medium.family }"
+    h1-mallory-compact-book:
+      size: "{ font.scale.46-70.value }"
+      family: "{ font.faces.MalloryCompact.value }"
+      weight: "{ font.weights.book.value }"
+      value: "{ font.styles.h1-mallory-compact-book.weight } { font.styles.h1-mallory-compact-book.size } { font.styles.h1-mallory-compact-book.family }"
+    h2-mallory-compact-book:
+      size: "{ font.scale.38-55.value }"
+      family: "{ font.faces.MalloryCompact.value }"
+      weight: "{ font.weights.book.value }"
+      value: "{ font.styles.h2-mallory-compact-book.weight } { font.styles.h2-mallory-compact-book.size } { font.styles.h2-mallory-compact-book.family }"
+    h3-mallory-compact-book:
+      size: "{ font.scale.30-43.value }"
+      family: "{ font.faces.MalloryCompact.value }"
+      weight: "{ font.weights.book.value }"
+      value: "{ font.styles.h3-mallory-compact-book.weight } { font.styles.h3-mallory-compact-book.size } { font.styles.h3-mallory-compact-book.family }"
+    h4-mallory-compact-book:
+      size: "{ font.scale.25-34.value }"
+      family: "{ font.faces.MalloryCompact.value }"
+      weight: "{ font.weights.book.value }"
+      value: "{ font.styles.h4-mallory-compact-book.weight } { font.styles.h4-mallory-compact-book.size } { font.styles.h4-mallory-compact-book.family }"
+    h5-mallory-compact-book:
+      size: "{ font.scale.22-27.value }"
+      family: "{ font.faces.MalloryCompact.value }"
+      weight: "{ font.weights.book.value }"
+      value: "{ font.styles.h5-mallory-compact-book.weight } { font.styles.h5-mallory-compact-book.size } { font.styles.h5-mallory-compact-book.family }"
+    h6-mallory-compact-book:
+      size: "{ font.scale.16-19.value }"
+      family: "{ font.faces.MalloryCompact.value }"
+      weight: "{ font.weights.book.value }"
+      value: "{ font.styles.h6-mallory-compact-book.weight } { font.styles.h6-mallory-compact-book.size } { font.styles.h6-mallory-compact-book.family }"
