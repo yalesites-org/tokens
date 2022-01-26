@@ -45,27 +45,30 @@ npm install @yalesites-org/tokens
 ```
 
 ## Connecting Figma
+<details><summary>How get a Github Personal Access Token</summary>
+
+1. Go to the [Personal Access Tokens section](https://github.com/settings/tokens) or click on your avatar in the top right, go to Settings > scroll down to Developer Settings > Personal Access Tokens
+2. Click "Generate new Token"
+3. In the "Note" section, type "YaleSites Deploy Token"
+4. Select "repo" for the scope (the very first checkbox)
+5. Select a token expiration date (or "No expiration")
+6. Scroll down and click Generate token.
+7. Copy the token. You will only see this once!
+
+</details>
 
 <details><summary>How to set up the Figma Token plugin</summary>
 
 1. Install the [Figma Tokens](https://www.figma.com/community/plugin/843461159747178978/Figma-Tokens) plugin.
 2. Navigate to the Figma UI Kit and launch the Figma Tokens plugin.
 3. Go to Sync and under Token Storage, select GitHub.
-4. Click "Add new credentials"
-5. For Repository, enter `yalesites-org/tokens`
-6. For Default Branch, enter `figma`
-7. For File Path, use `tokens/tokens.json`
-8. Leave "baseURL" blank.
-9. Click Save
-
-</details>
-
-<details><summary>How get a Github Personal Access Token</summary>
-
-1. Go to the [Personal Access Tokens section](https://github.com/settings/tokens) or click on your avatar in the top right, go to Settings > scroll down to Developer Settings > Personal Access Tokens
-2. Generate a new Personal Access Token
-3. Select the "Repo" for the scope and decide for yourself when that token should expire.
-4. Scroll down and click Generate token.
-5. Copy the token. You will only see this once!
+4. Click "Add new credentials" and enter the following:
+   - Name: `YaleSites UI Kit`
+   - Personal Access Token: (Paste the access token you created above)
+   - Repository: `yalesites-org/tokens`
+   - Default Branch: `figma`
+   - File Path: `tokens/figma-export/tokens.json`
+   - baseURL: (leave blank)
+   - Click Save
 
 </details>

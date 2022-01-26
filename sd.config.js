@@ -14,7 +14,7 @@ module.exports = {
       parse: ({ contents, filePath }) => yaml.parse(contents),
     },
   ],
-  source: ["tokens/**/*.{json,jsonc,yml}"],
+  source: ["tokens/!(figma-export)/**/*.{json,yml}", "tokens/*.{json,yml}"],
   platforms: {
     css: {
       transforms: [
