@@ -44,10 +44,14 @@ font:
       value: "clamp(1.1875rem, calc(0.61vw + 0.9691rem), 1.5rem)"
     17-20:
       value: "clamp(1.0625rem, calc(0.36vw + 0.9314rem), 1.25rem)"
+    17-19:
+      value: "clamp(1.0625rem, calc(0.49vw + 0.7627rem), 1.1875rem)"
     16-19:
       value: "clamp(1rem, calc(0.36vw + 0.87rem), 1.1875rem)"
     15-18:
       value: "clamp(0.9375rem, calc(0.36vw + 0.8064rem), 1.125rem)"
+    15-16:
+      value: "clamp(0.9375rem, calc(0.12vw + 0.0.8938rem), 1rem)"
     14-16:
       value: "clamp(0.875rem, calc(0.24vw + 0.7876rem), 1rem)"
     14-15:
@@ -162,11 +166,21 @@ font:
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-400.value }"
         value: "{ font.style.body.m.weight } { font.style.body.m.size } { font.style.body.m.family }"
+      m-condensed:
+        size: "{ font.scale.17-19.value }"
+        family: "{ fontFamilies.mallory-compact.value }"
+        weight: "{ font.weights.mallory-compact-400.value }"
+        value: "{ font.style.body.m-condensed.weight } { font.style.body.m-condensed.size } { font.style.body.m-condensed.family }"
       s:
-        size: "{ font.scale.14-16.value }"
+        size: "{ font.scale.15-16.value }"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-400.value }"
         value: "{ font.style.body.s.weight } { font.style.body.s.size } { font.style.body.s.family }"
+      s-condensed:
+        size: "{ font.scale.14-16.value }"
+        family: "{ fontFamilies.mallory-compact.value }"
+        weight: "{ font.weights.mallory-compact-400.value }"
+        value: "{ font.style.body.s-condensed.weight } { font.style.body.s-condensed.size } { font.style.body.s-condensed.family }"
       xs:
         size: "{ font.scale.13-14.value }"
         family: "{ fontFamilies.mallory-compact.value }"
