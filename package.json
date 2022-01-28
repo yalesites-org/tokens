@@ -23,7 +23,7 @@
     "semantic-release": "semantic-release",
     "style-dictionary:build": "style-dictionary build --config ./sd.config.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "transform": "token-transformer tokens/figma-export/tokens.json tokens/tokens.json"
+    "transform": "token-transformer tokens/figma-export/tokens.json tokens/figma-transformed-tokens.json"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.0.1",
