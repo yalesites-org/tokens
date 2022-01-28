@@ -19,11 +19,9 @@ Each environment that needs to pull @yalesites-org packages from GitHub needs to
   - Choose an expiration value
   - Check the box for "write:packages" (this will automatically check all of the "repo" boxes as well)
   - Click "Generate token"
-- In your terminal initiate the authentication process by typing `npm login --scope=@yalesites-org --registry=https://npm.pkg.github.com`
-- Provide in your credentials
-  - Username is your GitHub username (all lower case)
-  - Password is the token you just created
-  - Email is your public email address
+- On your local machine, create an environment variable. This process varies depending on the shell and operating system you use. It will be something similar to this though: `export KEY=value`.
+  - The `key` for YaleSites projects needs to be `YALESITES_BUILD_TOKEN`
+  - The `value` is the token you created above
 - Done!
 
 </details>
@@ -45,6 +43,7 @@ npm install @yalesites-org/tokens
 ```
 
 ## Connecting Figma
+
 <details><summary>How get a Github Personal Access Token</summary>
 
 1. Go to the [Personal Access Tokens section](https://github.com/settings/tokens) or click on your avatar in the top right, go to Settings > scroll down to Developer Settings > Personal Access Tokens
