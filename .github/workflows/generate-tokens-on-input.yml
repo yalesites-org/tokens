@@ -5,7 +5,8 @@ on:
     branches:
       - main
     paths:
-      - 'tokens/**/*.json'
+      - "tokens/**/*.json"
+      - "tokens/**/*.yml"
 
 jobs:
   generate_tokens:
@@ -26,8 +27,8 @@ jobs:
       - name: Commit Generated Platform Deliverables
         uses: EndBug/add-and-commit@v7
         with:
-          add: 'build -f'
-          message: 'build: update design tokens'
+          add: "build -f"
+          message: "build: update design tokens"
       - name: Release
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
@@ -36,5 +37,5 @@ jobs:
       - name: Remove Build Directory
         uses: EndBug/add-and-commit@v7
         with:
-          remove: '--cached -r build'
-          message: 'build: removed build directory from git'
+          remove: "--cached -r build"
+          message: "build: removed build directory from git"

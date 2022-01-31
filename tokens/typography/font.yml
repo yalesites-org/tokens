@@ -2,9 +2,8 @@
 # screen width of 576px and the largest size at a screen width of 1400.
 # https://planetcalc.com/8110/ is an online calculator to make this easy.
 # Enter 576 and 1400 for the x coordinates, and the desired min and max
-# font sizes for the y coordinates to get the calculation. Everything is
-# rounded to the nearest hundredth and then converted from px to rem by
-# dividing by 16.
+# font sizes for the y coordinates to get the calculation. Everything is rounded
+# to the nearest hundredth and then converted from px to rem by dividing by 16.
 font:
   weights:
     mallory-compact-400:
