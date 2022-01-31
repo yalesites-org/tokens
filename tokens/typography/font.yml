@@ -58,131 +58,174 @@ font:
       value: "clamp(0.875rem, calc(0.12vw + 0.8313rem), 0.9375rem)"
     13-14:
       value: "clamp(0.8125rem, calc(0.12vw + 0.7688rem), 0.875rem)"
+  letterSpacing:
+    h1-mallory-compact-medium:
+      value: "-0.01em"
+    h2-mallory-compact-medium:
+      value: "-0.01em"
+    h6-mallory-compact-medium:
+      value: "0.02em"
+    h1-mallory-compact-book:
+      value: "-0.01em"
+    h2-mallory-compact-book:
+      value: "-0.01em"
+    h6-mallory-compact-book:
+      value: "0.02em"
+  textTransform:
+    h6-mallory-compact-medium:
+      value: "uppercase"
+    h6-mallory-compact-book:
+      value: "uppercase"
   style:
     heading:
       h1-yale-new:
         size: "{ font.scale.46-70.value }"
+        line-height: "1"
         family: "{ fontFamilies.yalenew.value }"
         weight: "{ font.weights.yalenew-400.value }"
-        value: "{ font.style.heading.h1-yale-new.weight } { font.style.heading.h1-yale-new.size }/1 { font.style.heading.h1-yale-new.family }"
+        value: "{ font.style.heading.h1-yale-new.weight } { font.style.heading.h1-yale-new.size }/{ font.style.heading.h1-yale-new.line-height} { font.style.heading.h1-yale-new.family }"
       h2-yale-new:
         size: "{ font.scale.38-55.value }"
+        line-height: "1"
         family: "{ fontFamilies.yalenew.value }"
         weight: "{ font.weights.yalenew-400.value }"
-        value: "{ font.style.heading.h2-yale-new.weight } { font.style.heading.h2-yale-new.size }/1 { font.style.heading.h2-yale-new.family }"
+        value: "{ font.style.heading.h2-yale-new.weight } { font.style.heading.h2-yale-new.size }/{ font.style.heading.h2-yale-new.line-height } { font.style.heading.h2-yale-new.family }"
       h3-yale-new:
         size: "{ font.scale.30-43.value }"
+        line-height: "1.02"
         family: "{ fontFamilies.yalenew.value }"
         weight: "{ font.weights.yalenew-400.value }"
-        value: "{ font.style.heading.h3-yale-new.weight } { font.style.heading.h3-yale-new.size }/1.02 { font.style.heading.h3-yale-new.family }"
+        value: "{ font.style.heading.h3-yale-new.weight } { font.style.heading.h3-yale-new.size }/{ font.style.heading.h3-yale-new.line-height } { font.style.heading.h3-yale-new.family }"
       h4-yale-new:
         size: "{ font.scale.25-34.value }"
+        line-height: "1.04"
         family: "{ fontFamilies.yalenew.value }"
         weight: "{ font.weights.yalenew-400.value }"
-        value: "{ font.style.heading.h4-yale-new.weight } { font.style.heading.h4-yale-new.size }/1.04 { font.style.heading.h4-yale-new.family }"
+        value: "{ font.style.heading.h4-yale-new.weight } { font.style.heading.h4-yale-new.size }/{ font.style.heading.h4-yale-new.line-height } { font.style.heading.h4-yale-new.family }"
       h5-yale-new:
         size: "{ font.scale.22-27.value }"
+        line-height: "1.05"
         family: "{ fontFamilies.yalenew.value }"
         weight: "{ font.weights.yalenew-400.value }"
-        value: "{ font.style.heading.h5-yale-new.weight } { font.style.heading.h5-yale-new.size }/1.05 { font.style.heading.h5-yale-new.family }"
+        value: "{ font.style.heading.h5-yale-new.weight } { font.style.heading.h5-yale-new.size }/{ font.style.heading.h5-yale-new.line-height } { font.style.heading.h5-yale-new.family }"
       h6-yale-new:
         size: "{ font.scale.16-19.value }"
+        line-height: "1.05"
         family: "{ fontFamilies.yalenew.value }"
         weight: "{ font.weights.yalenew-400.value }"
-        value: "{ font.style.heading.h6-yale-new.weight } { font.style.heading.h6-yale-new.size }/1.05 { font.style.heading.h6-yale-new.family }"
+        value: "{ font.style.heading.h6-yale-new.weight } { font.style.heading.h6-yale-new.size }/{ font.style.heading.h6-yale-new.line-height } { font.style.heading.h6-yale-new.family }"
       h1-mallory-compact-medium:
         size: "{ font.scale.46-70.value }"
+        line-height: "1"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-500.value }"
-        value: "{ font.style.heading.h1-mallory-compact-medium.weight } { font.style.heading.h1-mallory-compact-medium.size }/1 { font.style.heading.h1-mallory-compact-medium.family }"
+        value: "{ font.style.heading.h1-mallory-compact-medium.weight } { font.style.heading.h1-mallory-compact-medium.size }/{ font.style.heading.h1-mallory-compact-medium.line-height } { font.style.heading.h1-mallory-compact-medium.family }"
       h2-mallory-compact-medium:
         size: "{ font.scale.38-55.value }"
+        line-height: "1"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-500.value }"
-        value: "{ font.style.heading.h2-mallory-compact-medium.weight } { font.style.heading.h2-mallory-compact-medium.size }/1 { font.style.heading.h2-mallory-compact-medium.family }"
+        value: "{ font.style.heading.h2-mallory-compact-medium.weight } { font.style.heading.h2-mallory-compact-medium.size }/{ font.style.heading.h2-mallory-compact-medium.line-height } { font.style.heading.h2-mallory-compact-medium.family }"
       h3-mallory-compact-medium:
         size: "{ font.scale.30-43.value }"
+        line-height: "1.05"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-500.value }"
-        value: "{ font.style.heading.h3-mallory-compact-medium.weight } { font.style.heading.h3-mallory-compact-medium.size }/1.05 { font.style.heading.h3-mallory-compact-medium.family }"
+        value: "{ font.style.heading.h3-mallory-compact-medium.weight } { font.style.heading.h3-mallory-compact-medium.size }/{ font.style.heading.h3-mallory-compact-medium.line-height } { font.style.heading.h3-mallory-compact-medium.family }"
       h4-mallory-compact-medium:
         size: "{ font.scale.25-34.value }"
+        line-height: "1.10"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-500.value }"
-        value: "{ font.style.heading.h4-mallory-compact-medium.weight } { font.style.heading.h4-mallory-compact-medium.size }/1.10 { font.style.heading.h4-mallory-compact-medium.family }"
+        value: "{ font.style.heading.h4-mallory-compact-medium.weight } { font.style.heading.h4-mallory-compact-medium.size }/{ font.style.heading.h4-mallory-compact-medium.line-height } { font.style.heading.h4-mallory-compact-medium.family }"
       h5-mallory-compact-medium:
         size: "{ font.scale.22-27.value }"
+        line-height: "1.15"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-500.value }"
-        value: "{ font.style.heading.h5-mallory-compact-medium.weight } { font.style.heading.h5-mallory-compact-medium.size }/1.15 { font.style.heading.h5-mallory-compact-medium.family }"
+        value: "{ font.style.heading.h5-mallory-compact-medium.weight } { font.style.heading.h5-mallory-compact-medium.size }/{ font.style.heading.h5-mallory-compact-medium.line-height } { font.style.heading.h5-mallory-compact-medium.family }"
       h6-mallory-compact-medium:
         size: "{ font.scale.16-19.value }"
+        line-height: "1.05"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-500.value }"
-        value: "{ font.style.heading.h6-mallory-compact-medium.weight } { font.style.heading.h6-mallory-compact-medium.size }/1.05 { font.style.heading.h6-mallory-compact-medium.family }"
+        value: "{ font.style.heading.h6-mallory-compact-medium.weight } { font.style.heading.h6-mallory-compact-medium.size }/{ font.style.heading.h6-mallory-compact-medium.line-height } { font.style.heading.h6-mallory-compact-medium.family }"
       h1-mallory-compact-book:
         size: "{ font.scale.46-70.value }"
+        line-height: "1"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-400.value }"
-        value: "{ font.style.heading.h1-mallory-compact-book.weight } { font.style.heading.h1-mallory-compact-book.size }/1 { font.style.heading.h1-mallory-compact-book.family }"
+        value: "{ font.style.heading.h1-mallory-compact-book.weight } { font.style.heading.h1-mallory-compact-book.size }/{ font.style.heading.h1-mallory-compact-book.line-height } { font.style.heading.h1-mallory-compact-book.family }"
       h2-mallory-compact-book:
         size: "{ font.scale.38-55.value }"
+        line-height: "1"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-400.value }"
-        value: "{ font.style.heading.h2-mallory-compact-book.weight } { font.style.heading.h2-mallory-compact-book.size }/1 { font.style.heading.h2-mallory-compact-book.family }"
+        value: "{ font.style.heading.h2-mallory-compact-book.weight } { font.style.heading.h2-mallory-compact-book.size }/{ font.style.heading.h2-mallory-compact-book.line-height } { font.style.heading.h2-mallory-compact-book.family }"
       h3-mallory-compact-book:
         size: "{ font.scale.30-43.value }"
+        line-height: "1.05"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-400.value }"
-        value: "{ font.style.heading.h3-mallory-compact-book.weight } { font.style.heading.h3-mallory-compact-book.size }/1.05 { font.style.heading.h3-mallory-compact-book.family }"
+        value: "{ font.style.heading.h3-mallory-compact-book.weight } { font.style.heading.h3-mallory-compact-book.size }/{ font.style.heading.h3-mallory-compact-book.line-height } { font.style.heading.h3-mallory-compact-book.family }"
       h4-mallory-compact-book:
         size: "{ font.scale.25-34.value }"
+        line-height: "1.10"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-400.value }"
-        value: "{ font.style.heading.h4-mallory-compact-book.weight } { font.style.heading.h4-mallory-compact-book.size }/1.10 { font.style.heading.h4-mallory-compact-book.family }"
+        value: "{ font.style.heading.h4-mallory-compact-book.weight } { font.style.heading.h4-mallory-compact-book.size }/{ font.style.heading.h4-mallory-compact-book.line-height } { font.style.heading.h4-mallory-compact-book.family }"
       h5-mallory-compact-book:
         size: "{ font.scale.22-27.value }"
+        line-height: "1.15"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-400.value }"
-        value: "{ font.style.heading.h5-mallory-compact-book.weight } { font.style.heading.h5-mallory-compact-book.size }/1.15 { font.style.heading.h5-mallory-compact-book.family }"
+        value: "{ font.style.heading.h5-mallory-compact-book.weight } { font.style.heading.h5-mallory-compact-book.size }/{ font.style.heading.h5-mallory-compact-book.line-height } { font.style.heading.h5-mallory-compact-book.family }"
       h6-mallory-compact-book:
         size: "{ font.scale.16-19.value }"
+        line-height: "1.05"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-400.value }"
-        value: "{ font.style.heading.h6-mallory-compact-book.weight } { font.style.heading.h6-mallory-compact-book.size }/1.05 { font.style.heading.h6-mallory-compact-book.family }"
+        value: "{ font.style.heading.h6-mallory-compact-book.weight } { font.style.heading.h6-mallory-compact-book.size }/{ font.style.heading.h6-mallory-compact-book.line-height } { font.style.heading.h6-mallory-compact-book.family }"
     body:
       xl:
         size: "{ font.scale.22-28.value }"
+        line-height: "1.4"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-400.value }"
-        value: "{ font.style.body.xl.weight } { font.style.body.xl.size }/1.4 { font.style.body.xl.family }"
+        value: "{ font.style.body.xl.weight } { font.style.body.xl.size }/{ font.style.body.xl.line-height } { font.style.body.xl.family }"
       l:
         size: "{ font.scale.19-24.value }"
+        line-height: "1.45"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-400.value }"
-        value: "{ font.style.body.l.weight } { font.style.body.l.size }/1.45 { font.style.body.l.family }"
+        value: "{ font.style.body.l.weight } { font.style.body.l.size }/{ font.style.body.l.line-height } { font.style.body.l.family }"
       m:
         size: "{ font.scale.17-20.value }"
+        line-height: "1.65"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-400.value }"
-        value: "{ font.style.body.m.weight } { font.style.body.m.size }/1.65 { font.style.body.m.family }"
+        value: "{ font.style.body.m.weight } { font.style.body.m.size }/{ font.style.body.m.line-height } { font.style.body.m.family }"
       m-condensed:
         size: "{ font.scale.17-19.value }"
+        line-height: "1.29"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-400.value }"
-        value: "{ font.style.body.m-condensed.weight } { font.style.body.m-condensed.size }/1.29 { font.style.body.m-condensed.family }"
+        value: "{ font.style.body.m-condensed.weight } { font.style.body.m-condensed.size }/{ font.style.body.m-condensed.line-height } { font.style.body.m-condensed.family }"
       s:
         size: "{ font.scale.15-16.value }"
+        line-height: "1.60"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-400.value }"
-        value: "{ font.style.body.s.weight } { font.style.body.s.size }/1.60 { font.style.body.s.family }"
+        value: "{ font.style.body.s.weight } { font.style.body.s.size }/{ font.style.body.s.line-height } { font.style.body.s.family }"
       s-condensed:
         size: "{ font.scale.14-16.value }"
+        line-height: "1.29"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-400.value }"
-        value: "{ font.style.body.s-condensed.weight } { font.style.body.s-condensed.size }/1.29 { font.style.body.s-condensed.family }"
+        value: "{ font.style.body.s-condensed.weight } { font.style.body.s-condensed.size }/{ font.style.body.s-condensed.line-height } { font.style.body.s-condensed.family }"
       xs:
         size: "{ font.scale.13-14.value }"
+        line-height: "1.45"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-400.value }"
-        value: "{ font.style.body.xs.weight } { font.style.body.xs.size }/1.45 { font.style.body.xs.family }"
+        value: "{ font.style.body.xs.weight } { font.style.body.xs.size }/{ font.style.body.xs.line-height } { font.style.body.xs.family }"
