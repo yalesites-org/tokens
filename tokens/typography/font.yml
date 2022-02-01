@@ -50,7 +50,7 @@ font:
     15-18:
       value: "clamp(0.9375rem, calc(0.36vw + 0.8064rem), 1.125rem)"
     15-16:
-      value: "clamp(0.9375rem, calc(0.12vw + 0.0.8938rem), 1rem)"
+      value: "clamp(0.9375rem, calc(0.12vw + 0.8938rem), 1rem)"
     14-16:
       value: "clamp(0.875rem, calc(0.24vw + 0.7876rem), 1rem)"
     14-15:

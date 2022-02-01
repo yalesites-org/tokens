@@ -1,0 +1,14 @@
+border:
+  thickness:
+    1:
+      value: "{size.thickness.1.value}"
+    2:
+      value: "{size.thickness.2.value}"
+    3:
+      value: "{size.thickness.3.value}"
+    4:
+      value: "{size.thickness.4.value}"
+    5:
+      value: "{size.thickness.5.value}"
+    6:
+      value: "{size.thickness.6.value}"
