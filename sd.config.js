@@ -1,4 +1,22 @@
 const yaml = require("yaml");
+const StyleDictionary = require("style-dictionary");
+
+// Custom transform for box-shadows
+StyleDictionary.registerTransform({
+  name: "shadow/spreadShadow",
+  type: "value",
+  matcher: function (token) {
+    return token.type === "boxShadow";
+  },
+  transformer: (token) => {
+    const shadows = Object.values(token.value);
+    const result = shadows.map(
+      (shadow) =>
+        `${shadow.x}px ${shadow.y}px ${shadow.blur}px ${shadow.spread}px ${shadow.color}`
+    );
+    return result.join(",");
+  },
+});
 
 module.exports = {
   parsers: [
@@ -24,6 +42,7 @@ module.exports = {
         "content/icon",
         "size/rem",
         "color/hsl",
+        "shadow/spreadShadow",
       ],
       buildPath: "build/scss/",
       files: [
@@ -41,6 +60,7 @@ module.exports = {
         "content/icon",
         "size/rem",
         "color/hsl",
+        "shadow/spreadShadow",
       ],
       buildPath: "build/css/",
       files: [
@@ -61,6 +81,7 @@ module.exports = {
         "content/icon",
         "size/rem",
         "color/hsl",
+        "shadow/spreadShadow",
       ],
       buildPath: "build/json/",
       files: [
