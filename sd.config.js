@@ -18,6 +18,18 @@ StyleDictionary.registerTransform({
   },
 });
 
+// Custom transform for borderRadius
+StyleDictionary.registerTransform({
+  name: "border/radius",
+  type: "value",
+  matcher: function (token) {
+    return token.type === "borderRadius";
+  },
+  transformer: (token) => {
+    return `${token.value}rem`;
+  },
+});
+
 module.exports = {
   parsers: [
     {
@@ -43,6 +55,7 @@ module.exports = {
         "size/rem",
         "color/hsl",
         "shadow/spreadShadow",
+        "border/radius",
       ],
       buildPath: "build/scss/",
       files: [
@@ -61,6 +74,7 @@ module.exports = {
         "size/rem",
         "color/hsl",
         "shadow/spreadShadow",
+        "border/radius",
       ],
       buildPath: "build/css/",
       files: [
@@ -82,6 +96,7 @@ module.exports = {
         "size/rem",
         "color/hsl",
         "shadow/spreadShadow",
+        "border/radius",
       ],
       buildPath: "build/json/",
       files: [
