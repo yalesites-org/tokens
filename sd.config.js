@@ -16,6 +16,23 @@ module.exports = {
   ],
   source: ["tokens/!(figma-export)/**/*.{json,yml}", "tokens/*.{json,yml}"],
   platforms: {
+    scss: {
+      transforms: [
+        "attribute/cti",
+        "name/cti/kebab",
+        "time/seconds",
+        "content/icon",
+        "size/rem",
+        "color/hsl",
+      ],
+      buildPath: "build/scss/",
+      files: [
+        {
+          destination: "tokens.scss",
+          format: "scss/variables",
+        },
+      ],
+    },
     css: {
       transforms: [
         "attribute/cti",

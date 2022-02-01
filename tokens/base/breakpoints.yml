@@ -1,0 +1,13 @@
+break:
+  s:
+    value: "576px"
+  m:
+    value: "768px"
+  l:
+    value: "992px"
+  xl:
+    value: "1200px"
+  2xl:
+    value: "1400px"
+  max-width:
+    value: "2400px"
