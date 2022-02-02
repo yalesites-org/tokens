@@ -198,18 +198,18 @@ font:
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-400.value }"
         value: "{ font.style.body.l.weight } { font.style.body.l.size }/{ font.style.body.l.line-height } { font.style.body.l.family }"
-      m:
+      default:
         size: "{ font.scale.17-20.value }"
         line-height: "1.65"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-400.value }"
-        value: "{ font.style.body.m.weight } { font.style.body.m.size }/{ font.style.body.m.line-height } { font.style.body.m.family }"
-      m-condensed:
+        value: "{ font.style.body.default.weight } { font.style.body.default.size }/{ font.style.body.default.line-height } { font.style.body.default.family }"
+      default-condensed:
         size: "{ font.scale.17-19.value }"
         line-height: "1.29"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-400.value }"
-        value: "{ font.style.body.m-condensed.weight } { font.style.body.m-condensed.size }/{ font.style.body.m-condensed.line-height } { font.style.body.m-condensed.family }"
+        value: "{ font.style.body.default-condensed.weight } { font.style.body.default-condensed.size }/{ font.style.body.default-condensed.line-height } { font.style.body.default-condensed.family }"
       s:
         size: "{ font.scale.15-16.value }"
         line-height: "1.60"
