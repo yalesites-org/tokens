@@ -1,0 +1,36 @@
+component-themes:
+  "gray-800":
+    background:
+      value: "{ color.gray.800.value }"
+    text:
+      value: "{ color.basics.white.value }"
+  "gray-700":
+    background:
+      value: "{ color.gray.700.value }"
+    text:
+      value: "{ color.basics.white.value }"
+  "gray-200":
+    background:
+      value: "{ color.gray.200.value }"
+    text:
+      value: "{ color.basics.black.value }"
+  "gray-100":
+    background:
+      value: "{ color.gray.100.value }"
+    text:
+      value: "{ color.basics.black.value }"
+  "beige":
+    background:
+      value: "{ color.basics.beige.value }"
+    text:
+      value: "{ color.basics.black.value }"
+  "white":
+    background:
+      value: "{ color.basics.white.value }"
+    text:
+      value: "{ color.basics.black.value }"
+  "blue-yale":
+    background:
+      value: "{ color.blue.yale.value }"
+    text:
+      value: "{ color.basics.white.value }"
