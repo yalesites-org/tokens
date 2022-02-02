@@ -61,9 +61,12 @@ module.exports = {
       files: [
         {
           destination: "tokens.scss",
-          format: "scss/variables",
+          format: "scss/map-deep",
         },
       ],
+      options: {
+        outputReferences: true,
+      },
     },
     css: {
       transforms: [
