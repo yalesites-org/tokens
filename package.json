@@ -19,7 +19,9 @@
   "scripts": {
     "build": "npm run transform && npm run style-dictionary:build",
     "husky:commit-msg": "commitlint --edit $1",
+    "husky:pre-commit": "lint-staged",
     "prepare": "husky install",
+    "prettier": "prettier tokens --ignore-unknown",
     "semantic-release": "semantic-release",
     "style-dictionary:build": "style-dictionary build --config ./sd.config.js",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -37,5 +39,10 @@
     "style-dictionary": "^3.1.1",
     "token-transformer": "^0.0.17",
     "yaml": "^1.10.2"
+  },
+  "lint-staged": {
+    "tokens/**/*.yml": [
+      "npm run prettier -- --write"
+    ]
   }
 }
