@@ -1,5 +1,7 @@
 border:
   thickness:
+    0:
+      value: "0"
     "hairline":
       value: "{size.thickness.hairline.value}"
     1:
