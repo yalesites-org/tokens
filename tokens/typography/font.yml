@@ -71,6 +71,8 @@ font:
     h6-mallory-compact-book:
       value: "0.02em"
   textTransform:
+    h6-yale-new:
+      value: "uppercase"
     h6-mallory-compact-medium:
       value: "uppercase"
     h6-mallory-compact-book:
