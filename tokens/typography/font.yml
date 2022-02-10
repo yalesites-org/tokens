@@ -58,6 +58,8 @@ font:
     13-14:
       value: "clamp(0.8125rem, calc(0.12vw + 0.7688rem), 0.875rem)"
   letterSpacing:
+    h6-yale-new:
+      value: "0.03em"
     h1-mallory-compact-medium:
       value: "-0.01em"
     h2-mallory-compact-medium:
