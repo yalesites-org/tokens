@@ -27,3 +27,14 @@ site-header-themes:
       value: "{color.blue.light.value}"
     site-branding:
       value: "{color.basics.white.value}"
+site-header-layout:
+  left:
+    justify:
+      value: "{layout.flex-position.left}"
+    align:
+      value: "{layout.flex-position.left}"
+  center:
+    justify:
+      value: "{layout.flex-position.center}"
+    align:
+      value: "{layout.flex-position.center}"
