@@ -6,12 +6,16 @@ site-header-themes:
       value: "{color.blue.yale.value}"
     site-branding:
       value: "{color.blue.yale.value}"
+    border-color:
+      value: "{color.blue.yale.value}"
   "beige":
     background:
       value: "{color.basics.beige.value}"
     yale-branding:
       value: "{color.blue.yale.value}"
     site-branding:
+      value: "{color.blue.yale.value}"
+    border-color:
       value: "{color.blue.yale.value}"
   "white":
     background:
@@ -20,6 +24,8 @@ site-header-themes:
       value: "{color.blue.yale.value}"
     site-branding:
       value: "{color.blue.yale.value}"
+    border-color:
+      value: "{color.blue.yale.value}"
   "blue-yale":
     background:
       value: "{color.blue.yale.value}"
@@ -27,14 +33,23 @@ site-header-themes:
       value: "{color.blue.light.value}"
     site-branding:
       value: "{color.basics.white.value}"
+    border-color:
+      value: "{color.blue.light.value}"
 site-header-layout:
   left:
     justify:
       value: "{layout.flex-position.left}"
     align:
       value: "{layout.flex-position.left}"
+    flex-direction:
+      value: "column"
   center:
     justify:
       value: "{layout.flex-position.center}"
     align:
       value: "{layout.flex-position.center}"
+    flex-direction:
+      value: "column"
+  right:
+    flex-direction:
+      value: "row"

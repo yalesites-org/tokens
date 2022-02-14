@@ -232,3 +232,16 @@ font:
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-compact-400.value }"
         value: "{ font.style.body.xs.weight } { font.style.body.xs.size }/{ font.style.body.xs.line-height } { font.style.body.xs.family }"
+    branding:
+      yale:
+        size: "{ font.scale.19-24.value }"
+        line-height: "1.05"
+        family: "{ fontFamilies.yalenew.value }"
+        weight: "{ font.weights.yalenew-400.value }"
+        value: "{ font.style.branding.yale.weight } { font.style.branding.yale.size }/{ font.style.branding.yale.line-height } { font.style.branding.yale.family }"
+      site:
+        size: "{ font.scale.38-55.value }"
+        line-height: "1"
+        family: "{ fontFamilies.yalenew.value }"
+        weight: "{ font.weights.yalenew-400.value }"
+        value: "{ font.style.branding.site.weight } { font.style.branding.site.size }/{ font.style.branding.site.line-height } { font.style.branding.site.family }"
