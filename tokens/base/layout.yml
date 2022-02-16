@@ -15,3 +15,14 @@ layout:
       value: "center"
     right:
       value: "flex-end"
+size:
+  component-layout:
+    width:
+      max:
+        value: "150"
+      full:
+        value: "83.875"
+      feature:
+        value: "55"
+      content:
+        value: "40.25"
