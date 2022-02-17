@@ -1,0 +1,21 @@
+link:
+  color:
+    base:
+      value: "{color.blue.medium}"
+    hover:
+      value: "{color.gray.700}"
+  styles:
+    underline:
+      transform:
+        value: "scale(1, 1)"
+      transform-hover:
+        value: "scale(0, 1)"
+      bg-color:
+        value: "{link.color.base}"
+    no-underline:
+      transform:
+        value: "scale(0, 1)"
+      transform-hover:
+        value: "scale(1, 1)"
+      bg-color:
+        value: "{link.color.hover}"
