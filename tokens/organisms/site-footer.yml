@@ -1,31 +1,19 @@
 site-footer-themes:
-  "blue-yale":
-    background:
+  blue-yale:
+    border-color:
+      value: "{color.blue.light.value}"
+  gray-800:
+    border-color:
+      value: "{color.blue.light.value}"
+  gray-700:
+    border-color:
+      value: "{color.blue.light.value}"
+  gray-100:
+    border-color:
       value: "{color.blue.yale.value}"
-    text:
-      value: "{color.basics.white.value}"
-  "gray-800":
-    background:
-      value: "{color.gray.800.value}"
-    text:
-      value: "{color.basics.white.value}"
-  "gray-700":
-    background:
-      value: "{color.gray.700.value}"
-    text:
-      value: "{color.basics.white.value}"
-  "gray-100":
-    background:
-      value: "{color.gray.100.value}"
-    text:
-      value: "{color.gray.800.value}"
-  "beige":
-    background:
-      value: "{color.basics.beige.value}"
-    text:
-      value: "{color.gray.800.value}"
-  "white":
-    background:
-      value: "{color.basics.white.value}"
-    text:
-      value: "{color.gray.800.value}"
+  beige:
+    border-color:
+      value: "{color.blue.yale.value}"
+  white:
+    border-color:
+      value: "{color.blue.yale.value}"
