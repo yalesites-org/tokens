@@ -10,17 +10,6 @@ site-header-themes:
       value: "{color.blue.yale.value}"
     divider-color:
       value: "{color.gray.300.value}"
-  beige:
-    background:
-      value: "{color.basics.beige.value}"
-    yale-branding:
-      value: "{color.blue.yale.value}"
-    site-branding:
-      value: "{color.blue.yale.value}"
-    border-color:
-      value: "{color.blue.yale.value}"
-    divider-color:
-      value: "{color.gray.300.value}"
   white:
     background:
       value: "{color.basics.white.value}"
