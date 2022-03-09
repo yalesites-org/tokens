@@ -12,6 +12,6 @@ break:
   max-width:
     value: "2400px"
   mobile:
-    value: "{ break.m }"
+    value: "{ break.l }"
   mobile-max:
-    value: "{ break.m } - 0.05"
+    value: "{ break.l } - 0.05"

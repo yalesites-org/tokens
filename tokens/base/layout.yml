@@ -20,9 +20,9 @@ size:
     width:
       max:
         value: "150"
-      full:
-        value: "83.875"
       feature:
-        value: "67"
+        value: "84"
+      highlight:
+        value: "65"
       content:
         value: "49.375"
