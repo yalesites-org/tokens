@@ -11,9 +11,6 @@ site-footer-themes:
   gray-100:
     border-color:
       value: "{color.blue.yale.value}"
-  beige:
-    border-color:
-      value: "{color.blue.yale.value}"
   white:
     border-color:
       value: "{color.blue.yale.value}"
