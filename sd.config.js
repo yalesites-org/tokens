@@ -30,18 +30,6 @@ StyleDictionary.registerTransform({
   },
 });
 
-// Custom transform for borderRadius
-StyleDictionary.registerTransform({
-  name: "border/radius",
-  type: "value",
-  matcher: function (token) {
-    return token.type === "borderRadius";
-  },
-  transformer: (token) => {
-    return `${token.value}rem`;
-  },
-});
-
 // Custom transform to convert font sizes to rem
 StyleDictionary.registerTransform({
   name: "size/pxToRem",
