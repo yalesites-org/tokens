@@ -75,7 +75,7 @@ module.exports = {
         "name/cti/kebab",
         "time/seconds",
         "content/icon",
-        "size/pxToRem",
+        "size/rem",
         "color/hsl",
         "shadow/spreadShadow",
         "border/radius",
