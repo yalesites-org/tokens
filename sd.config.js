@@ -30,6 +30,41 @@ StyleDictionary.registerTransform({
   },
 });
 
+// Custom transform for borderRadius
+StyleDictionary.registerTransform({
+  name: "border/radius",
+  type: "value",
+  matcher: function (token) {
+    return token.type === "borderRadius";
+  },
+  transformer: (token) => {
+    return `${token.value}rem`;
+  },
+});
+
+// Custom transform to convert font sizes to rem
+StyleDictionary.registerTransform({
+  name: "size/pxToRem",
+  type: "value",
+  matcher: function (token) {
+    return token.type === "fontSizes";
+  },
+  transformer: (token, options) => {
+    const baseFont = (options && options.basePxFontSize) || 16;
+    const floatVal = parseFloat(token.value);
+
+    if (isNaN(floatVal)) {
+      throwSizeError(token.name, token.value, 'rem')
+    }
+
+    if (floatVal === 0) {
+      return '0';
+    }
+
+    return `${floatVal / baseFont}rem`;
+  }
+})
+
 module.exports = {
   parsers: [
     {
@@ -52,10 +87,11 @@ module.exports = {
         "name/cti/kebab",
         "time/seconds",
         "content/icon",
-        "size/rem",
+        "size/pxToRem",
         "color/hsl",
         "shadow/spreadShadow",
         "border/radius",
+        "size/pxToRem",
       ],
       buildPath: "build/scss/",
       files: [
@@ -78,6 +114,7 @@ module.exports = {
         "color/hsl",
         "shadow/spreadShadow",
         "border/radius",
+        "size/pxToRem",
       ],
       buildPath: "build/css/",
       files: [
@@ -100,6 +137,7 @@ module.exports = {
         "color/hsl",
         "shadow/spreadShadow",
         "border/radius",
+        "size/pxToRem",
       ],
       buildPath: "build/json/",
       files: [
