@@ -20,31 +20,31 @@ font:
       value: "500"
   scale:
     43-61:
-      value: "clamp({ fontSize.43.value }, calc(2.91vw + 1.83rem), { fontSize.61.value })"
+      value: "clamp({ fontSize.43.value }, calc(2.18vw + 1.9011rem), { fontSize.61.value })"
     41-58:
-      value: "clamp({ fontSize.41.value }, calc(2.79vw + 1.56rem), { fontSize.58.value })"
+      value: "clamp({ fontSize.41.value }, calc(2.06vw + 1.8198rem), { fontSize.58.value })"
     38-55:
-      value: "clamp({ fontSize.38.value }, calc(2.06vw + 1.63rem), { fontSize.55.value })"
+      value: "clamp({ fontSize.38.value }, calc(2.06vw + 1.6323rem), { fontSize.55.value })"
     36-49:
-      value: "clamp({ fontSize.36.value }, calc(2.06vw + 1.63rem), { fontSize.49.value })"
+      value: "clamp({ fontSize.36.value }, calc(1.58vw + 1.6820rem), { fontSize.49.value })"
     33-46:
-      value: "clamp({ fontSize.33.value }, calc(1.82vw + 1.41rem), { fontSize.46.value })"
+      value: "clamp({ fontSize.33.value }, calc(1.58vw + 1.4945rem), { fontSize.46.value })"
     30-39:
-      value: "clamp({ fontSize.30.value }, calc(1.58vw + 1.31rem), { fontSize.39.value })"
+      value: "clamp({ fontSize.30.value }, calc(1.09vw + 1.4818rem), { fontSize.39.value })"
     27-36:
-      value: "clamp({ fontSize.27.value }, calc(1.21vw + 1.25rem), { fontSize.36.value })"
+      value: "clamp({ fontSize.27.value }, calc(1.09vw + 1.2943rem), { fontSize.36.value })"
     25-30:
-      value: "clamp({ fontSize.25.value }, calc(1.09vw + 1.17rem), { fontSize.30.value })"
+      value: "clamp({ fontSize.25.value }, calc(0.61vw + 1.3441rem), { fontSize.30.value })"
     23-28:
-      value: "clamp({ fontSize.23.value }, calc(0.97vw + 1.088rem), { fontSize.28.value })"
+      value: "clamp({ fontSize.23.value }, calc(0.61vw + 1.2191rem), { fontSize.28.value })"
     22-26:
-      value: "clamp({ fontSize.22.value }, calc(0.61vw + 1.16rem), { fontSize.26.value })"
+      value: "clamp({ fontSize.22.value }, calc(0.49vw + 1.2002rem), { fontSize.26.value })"
     19-24:
       value: "clamp({ fontSize.19.value }, calc(0.61vw + 0.9691rem), { fontSize.24.value })"
     17-20:
       value: "clamp({ fontSize.17.value }, calc(0.36vw + 0.9314rem), { fontSize.20.value })"
     16-19:
-      value: "clamp({ fontSize.16.value }, calc(0.36vw + 0.87rem), { fontSize.19.value })"
+      value: "clamp({ fontSize.16.value }, calc(0.36vw + 0.8689rem), { fontSize.19.value })"
     15-18:
       value: "clamp({ fontSize.15.value }, calc(0.36vw + 0.8064rem), { fontSize.18.value })"
     15-16:
