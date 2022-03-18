@@ -69,6 +69,8 @@ module.exports = {
   ],
   source: ["tokens/!(figma-export)/**/*.{json,yml}", "tokens/*.{json,yml}"],
   platforms: {
+    // SCSS is only used to iterate over sass maps to generate dynamic custom
+    // properties. SCSS variables should not actually be used in code directly.
     scss: {
       transforms: [
         "attribute/cti",
@@ -88,9 +90,6 @@ module.exports = {
           format: "scss/map-deep",
         },
       ],
-      options: {
-        outputReferences: true,
-      },
     },
     css: {
       transforms: [
