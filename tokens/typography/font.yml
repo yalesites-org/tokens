@@ -230,7 +230,7 @@ font:
         weight: "{ font.weights.yalenew-roman.value }"
         value: "{ font.style.branding.yale.weight } { font.style.branding.yale.size }/{ font.style.branding.yale.line-height } { font.style.branding.yale.family }"
       site:
-        size: "{ font.scale.38-55.value }"
+        size: "{ font.scale.36-49.value }"
         line-height: "1"
         family: "{ fontFamilies.yalenew.value }"
         weight: "{ font.weights.yalenew-roman.value }"
