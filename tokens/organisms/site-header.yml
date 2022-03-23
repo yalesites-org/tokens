@@ -48,5 +48,9 @@ site-header-layout:
     flex-direction:
       value: "column"
   right:
+    justify:
+      value: "{layout.flex-position.space-between}"
+    align:
+      value: "{layout.flex-position.baseline}"
     flex-direction:
       value: "row"
