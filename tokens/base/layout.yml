@@ -15,6 +15,10 @@ layout:
       value: "center"
     right:
       value: "flex-end"
+    baseline:
+      value: "baseline"
+    space-between:
+      value: "space-between"
 size:
   component-layout:
     width:
