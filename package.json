@@ -1,6 +1,6 @@
 {
   "name": "@yalesites-org/tokens",
-  "version": "1.16.2",
+  "version": "1.16.3",
   "description": "Tokens for YaleSites component libraries.",
   "repository": {
     "type": "git",
