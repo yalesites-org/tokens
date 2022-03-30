@@ -1,0 +1,12 @@
+alert-themes:
+  emergency:
+    background-color:
+      value: "#D62020"
+    text:
+      value: "white"
+  announcement:
+    background-color:
+      value: "#FEDC38"
+  marketing:
+    background-color:
+      value: "#B3E8FF"
