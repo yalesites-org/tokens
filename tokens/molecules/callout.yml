@@ -7,4 +7,4 @@ callout-themes:
       value: "{color.gray.700.value}"
   beige:
     background-color:
-      value: "{color.basics.beige.value}"
+      value: "{color.basic.beige.value}"
