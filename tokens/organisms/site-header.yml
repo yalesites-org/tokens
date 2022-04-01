@@ -12,7 +12,7 @@ site-header-themes:
       value: "{color.gray.300.value}"
   white:
     background:
-      value: "{color.basics.white.value}"
+      value: "{color.basic.white.value}"
     yale-branding:
       value: "{color.blue.yale.value}"
     site-branding:
@@ -27,7 +27,7 @@ site-header-themes:
     yale-branding:
       value: "{color.blue.light.value}"
     site-branding:
-      value: "{color.basics.white.value}"
+      value: "{color.basic.white.value}"
     border-color:
       value: "{color.blue.light.value}"
     divider-color:
