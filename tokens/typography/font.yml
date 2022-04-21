@@ -15,28 +15,30 @@ font:
     yalenew-bold:
       value: "700"
   scale:
-    43-61:
-      value: "clamp({ fontSize.43.value }, calc(2.18vw + 1.9011rem), { fontSize.61.value })"
+    43-62:
+      value: "clamp({ fontSize.43.value }, calc(2.32vw + 1.8574rem), { fontSize.62.value })"
     41-58:
       value: "clamp({ fontSize.41.value }, calc(2.06vw + 1.8198rem), { fontSize.58.value })"
     38-55:
       value: "clamp({ fontSize.38.value }, calc(2.06vw + 1.6323rem), { fontSize.55.value })"
-    36-49:
-      value: "clamp({ fontSize.36.value }, calc(1.58vw + 1.6820rem), { fontSize.49.value })"
+    36-52:
+      value: "clamp({ fontSize.36.value }, calc(1.94vw + 1.5510rem), { fontSize.52.value })"
     33-46:
       value: "clamp({ fontSize.33.value }, calc(1.58vw + 1.4945rem), { fontSize.46.value })"
-    30-39:
-      value: "clamp({ fontSize.30.value }, calc(1.09vw + 1.4818rem), { fontSize.39.value })"
+    29-41:
+      value: "clamp({ fontSize.29.value }, calc(1.46vw + 1.2882rem), { fontSize.41.value })"
     27-36:
       value: "clamp({ fontSize.27.value }, calc(1.09vw + 1.2943rem), { fontSize.36.value })"
-    25-30:
-      value: "clamp({ fontSize.25.value }, calc(0.61vw + 1.3441rem), { fontSize.30.value })"
-    23-28:
-      value: "clamp({ fontSize.23.value }, calc(0.61vw + 1.2191rem), { fontSize.28.value })"
-    22-26:
-      value: "clamp({ fontSize.22.value }, calc(0.49vw + 1.2002rem), { fontSize.26.value })"
-    19-24:
-      value: "clamp({ fontSize.19.value }, calc(0.61vw + 0.9691rem), { fontSize.24.value })"
+    24-30:
+      value: "clamp({ fontSize.24.value }, calc(0.73vw + 1.2379rem), { fontSize.30.value })"
+    23-29:
+      value: "clamp({ fontSize.23.value }, calc(0.73vw + 1.1754rem), { fontSize.29.value })"
+    21-25:
+      value: "clamp({ fontSize.21.value }, calc(0.49vw + 1.1377rem), { fontSize.25.value })"
+    20-26:
+      value: "clamp({ fontSize.20.value }, calc(0.73vw + 0.9879rem), { fontSize.26.value })"
+    20-24:
+      value: "clamp({ fontSize.20.value }, calc(0.49vw + 1.0752rem), { fontSize.24.value })"
     17-20:
       value: "clamp({ fontSize.17.value }, calc(0.36vw + 0.9314rem), { fontSize.20.value })"
     16-19:
@@ -72,31 +74,31 @@ font:
   style:
     heading:
       h1-yale-new:
-        size: "{ font.scale.43-61.value }"
+        size: "{ font.scale.43-62.value }"
         line-height: "1"
         family: "{ fontFamilies.yalenew.value }"
         weight: "{ font.weights.yalenew-roman.value }"
         value: "{ font.style.heading.h1-yale-new.weight } { font.style.heading.h1-yale-new.size }/{ font.style.heading.h1-yale-new.line-height} { font.style.heading.h1-yale-new.family }"
       h2-yale-new:
-        size: "{ font.scale.36-49.value }"
+        size: "{ font.scale.36-52.value }"
         line-height: "1"
         family: "{ fontFamilies.yalenew.value }"
         weight: "{ font.weights.yalenew-roman.value }"
         value: "{ font.style.heading.h2-yale-new.weight } { font.style.heading.h2-yale-new.size }/{ font.style.heading.h2-yale-new.line-height } { font.style.heading.h2-yale-new.family }"
       h3-yale-new:
-        size: "{ font.scale.30-39.value }"
+        size: "{ font.scale.29-41.value }"
         line-height: "1.14"
         family: "{ fontFamilies.yalenew.value }"
         weight: "{ font.weights.yalenew-roman.value }"
         value: "{ font.style.heading.h3-yale-new.weight } { font.style.heading.h3-yale-new.size }/{ font.style.heading.h3-yale-new.line-height } { font.style.heading.h3-yale-new.family }"
       h4-yale-new:
-        size: "{ font.scale.25-30.value }"
+        size: "{ font.scale.24-30.value }"
         line-height: "1.14"
         family: "{ fontFamilies.yalenew.value }"
         weight: "{ font.weights.yalenew-roman.value }"
         value: "{ font.style.heading.h4-yale-new.weight } { font.style.heading.h4-yale-new.size }/{ font.style.heading.h4-yale-new.line-height } { font.style.heading.h4-yale-new.family }"
       h5-yale-new:
-        size: "{ font.scale.22-26.value }"
+        size: "{ font.scale.21-25.value }"
         line-height: "1.14"
         family: "{ fontFamilies.yalenew.value }"
         weight: "{ font.weights.yalenew-roman.value }"
@@ -126,13 +128,13 @@ font:
         weight: "{ font.weights.mallory-medium.value }"
         value: "{ font.style.heading.h3-mallory-compact-medium.weight } { font.style.heading.h3-mallory-compact-medium.size }/{ font.style.heading.h3-mallory-compact-medium.line-height } { font.style.heading.h3-mallory-compact-medium.family }"
       h4-mallory-compact-medium:
-        size: "{ font.scale.23-28.value }"
+        size: "{ font.scale.23-29.value }"
         line-height: "1.10"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-medium.value }"
         value: "{ font.style.heading.h4-mallory-compact-medium.weight } { font.style.heading.h4-mallory-compact-medium.size }/{ font.style.heading.h4-mallory-compact-medium.line-height } { font.style.heading.h4-mallory-compact-medium.family }"
       h5-mallory-compact-medium:
-        size: "{ font.scale.19-24.value }"
+        size: "{ font.scale.20-24.value }"
         line-height: "1.15"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-medium.value }"
@@ -162,13 +164,13 @@ font:
         weight: "{ font.weights.mallory-book.value }"
         value: "{ font.style.heading.h3-mallory-compact-book.weight } { font.style.heading.h3-mallory-compact-book.size }/{ font.style.heading.h3-mallory-compact-book.line-height } { font.style.heading.h3-mallory-compact-book.family }"
       h4-mallory-compact-book:
-        size: "{ font.scale.23-28.value }"
+        size: "{ font.scale.23-29.value }"
         line-height: "1.10"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-book.value }"
         value: "{ font.style.heading.h4-mallory-compact-book.weight } { font.style.heading.h4-mallory-compact-book.size }/{ font.style.heading.h4-mallory-compact-book.line-height } { font.style.heading.h4-mallory-compact-book.family }"
       h5-mallory-compact-book:
-        size: "{ font.scale.19-24.value }"
+        size: "{ font.scale.20-24.value }"
         line-height: "1.15"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-book.value }"
@@ -181,13 +183,13 @@ font:
         value: "{ font.style.heading.h6-mallory-compact-book.weight } { font.style.heading.h6-mallory-compact-book.size }/{ font.style.heading.h6-mallory-compact-book.line-height } { font.style.heading.h6-mallory-compact-book.family }"
     body:
       xl:
-        size: "{ font.scale.23-28.value }"
+        size: "{ font.scale.23-29.value }"
         line-height: "1.4"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-book.value }"
         value: "{ font.style.body.xl.weight } { font.style.body.xl.size }/{ font.style.body.xl.line-height } { font.style.body.xl.family }"
       l:
-        size: "{ font.scale.19-24.value }"
+        size: "{ font.scale.20-26.value }"
         line-height: "1.45"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-book.value }"
@@ -230,7 +232,7 @@ font:
         weight: "{ font.weights.yalenew-roman.value }"
         value: "{ font.style.branding.yale.weight } { font.style.branding.yale.size }/{ font.style.branding.yale.line-height } { font.style.branding.yale.family }"
       site:
-        size: "{ font.scale.36-49.value }"
+        size: "clamp({ fontSize.36.value }, calc(1.58vw + 1.6820rem), { fontSize.49.value })"
         line-height: "1"
         family: "{ fontFamilies.yalenew.value }"
         weight: "{ font.weights.yalenew-roman.value }"
