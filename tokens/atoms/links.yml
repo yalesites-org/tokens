@@ -6,16 +6,12 @@ link:
       value: "{color.gray.700}"
   styles:
     underline:
-      transform:
-        value: "scale(1, 1)"
-      transform-hover:
-        value: "scale(0, 1)"
-      bg-color:
-        value: "{link.color.base}"
+      size:
+        value: "100% 2px"
+      size-hover:
+        value: "0 2px"
     no-underline:
-      transform:
-        value: "scale(0, 1)"
-      transform-hover:
-        value: "scale(1, 1)"
-      bg-color:
-        value: "{link.color.hover}"
+      size:
+        value: "0 2px"
+      size-hover:
+        value: "100% 2px"

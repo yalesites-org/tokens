@@ -1,0 +1,6 @@
+animation:
+  speed:
+    default:
+      value: "200ms"
+    slow:
+      value: "800ms"
