@@ -4,14 +4,8 @@ link:
       value: "{color.blue.medium}"
     hover:
       value: "{color.gray.700}"
-  styles:
-    underline:
-      size:
-        value: "100% 2px"
-      size-hover:
-        value: "0 2px"
-    no-underline:
-      size:
-        value: "0 2px"
-      size-hover:
-        value: "100% 2px"
+  underline-size:
+    default:
+      value: "{size.thickness.2}"
+    thick:
+      value: "{size.thickness.8}"
