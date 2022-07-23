@@ -1,0 +1,19 @@
+color:
+  theme:
+    cta:
+      primary:
+        value: "{color.blue.yale}"
+      secondary:
+        value: "{color.background}"
+  cta:
+    primary:
+      value: "{color.theme.cta.primary}"
+    secondary:
+      value: "{color.theme.cta.secondary}"
+    theme:
+      gray-800:
+        value: true
+      gray-700:
+        value: true
+      blue-yale:
+        value: true

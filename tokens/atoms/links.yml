@@ -1,32 +1,33 @@
 link:
-  color:
-    base:
-      value: "{color.blue.medium}"
-    hover:
-      value: "{color.gray.700}"
   underline-size:
     default:
       value: "{size.thickness.2}"
     thick:
       value: "{size.thickness.8}"
-link-themes:
-  "gray-800":
-    link-base:
-      value: "{color.basic.white.value}"
-    link-hover:
-      value: "{color.blue.light.value}"
-  "blue-yale":
-    link-base:
-      value: "{color.basic.white.value}"
-    link-hover:
-      value: "{color.blue.light.value}"
-  "gray-700":
-    link-base:
-      value: "{color.basic.white.value}"
-    link-hover:
-      value: "{color.gray.300.value}"
-  "gray-200":
-    link-base:
-      value: "{color.blue.yale.value}"
-    link-hover:
-      value: "{color.gray.700.value}"
+color:
+  link:
+    base:
+      value: "{color.blue.medium}"
+    hover:
+      value: "{color.gray.700}"
+    theme:
+      gray-800:
+        base:
+          value: "{color.basic.white.value}"
+        hover:
+          value: "{color.blue.light.value}"
+      blue-yale:
+        base:
+          value: "{color.basic.white.value}"
+        hover:
+          value: "{color.blue.light.value}"
+      gray-700:
+        base:
+          value: "{color.basic.white.value}"
+        hover:
+          value: "{color.gray.300.value}"
+      gray-200:
+        base:
+          value: "{color.blue.yale.value}"
+        hover:
+          value: "{color.gray.700.value}"
