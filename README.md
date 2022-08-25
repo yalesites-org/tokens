@@ -16,7 +16,7 @@ Two files should rarely, if ever, be touched by hand.
 There may be times when you need to create "hand-crafted" tokens, or pull in updates from Figma before they are actually published as a released package. You can use `npm link` to develop the tokens, and use them in the component library repo.
 
 - Clone the tokens repo to your local machine and move into it `git clone git@github.com:yalesites-org/tokens.git && cd tokens`
-- Run `npm link` to create a global link to this folder on your local machine.
+- Run `npm install` to build the dependencies, and then `npm link` to create a global link to this folder on your local machine.
 - In the component library repo on your local machine, run `npm link @yalesites-org/tokens`. This will tell the component library to use your locally cloned version of the `tokens` repo, instead of downloading the package via npm.
 - Now, you can make changes in the `tokens` repo locally, and run the build script to generate the build directory. Any time you do that, your local copy of the component library will use those locally built tokens. This makes it really easy to verify the new tokens are being generated as expected before they are actually published.
 - Once the new tokens are "finalized" they should be pushed up to a new PR against the `tokens` repo, and merged into `main` to publish them as a new version.
