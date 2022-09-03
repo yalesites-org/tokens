@@ -5,6 +5,3 @@ callout-themes:
   gray-700:
     background-color:
       value: "{color.gray.700.value}"
-  beige:
-    background-color:
-      value: "{color.basic.beige.value}"
