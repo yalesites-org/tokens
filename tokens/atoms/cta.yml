@@ -1,15 +1,9 @@
 color:
-  theme:
-    cta:
-      primary:
-        value: "{color.blue.yale}"
-      secondary:
-        value: "{color.background}"
   cta:
     primary:
-      value: "{color.theme.cta.primary}"
+      value: "{color.blue.yale}"
     secondary:
-      value: "{color.theme.cta.secondary}"
+      value: "{color.background}"
     theme:
       gray-800:
         value: true
