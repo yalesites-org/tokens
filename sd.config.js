@@ -42,16 +42,16 @@ StyleDictionary.registerTransform({
     const floatVal = parseFloat(token.value);
 
     if (isNaN(floatVal)) {
-      throwSizeError(token.name, token.value, 'rem')
+      throwSizeError(token.name, token.value, "rem");
     }
 
     if (floatVal === 0) {
-      return '0';
+      return "0";
     }
 
     return `${floatVal / baseFont}rem`;
-  }
-})
+  },
+});
 
 module.exports = {
   parsers: [
