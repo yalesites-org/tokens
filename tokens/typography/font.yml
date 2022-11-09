@@ -237,3 +237,6 @@ font:
         family: "{ fontFamilies.yalenew.value }"
         weight: "{ font.weights.yalenew-roman.value }"
         value: "{ font.style.branding.site.weight } { font.style.branding.site.size }/{ font.style.branding.site.line-height } { font.style.branding.site.family }"
+  spacing:
+    paragraph:
+      value: "1em"
