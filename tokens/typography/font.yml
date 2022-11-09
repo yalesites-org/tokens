@@ -202,7 +202,7 @@ font:
         value: "{ font.style.body.default.weight } { font.style.body.default.size }/{ font.style.body.default.line-height } { font.style.body.default.family }"
       default-condensed:
         size: "{ font.scale.17-20.value }"
-        line-height: "1.29"
+        line-height: "1.4"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-book.value }"
         value: "{ font.style.body.default-condensed.weight } { font.style.body.default-condensed.size }/{ font.style.body.default-condensed.line-height } { font.style.body.default-condensed.family }"
