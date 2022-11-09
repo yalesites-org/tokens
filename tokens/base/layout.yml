@@ -23,7 +23,7 @@ size:
   component-layout:
     width:
       max:
-        value: "150"
+        value: "100"
       feature:
         value: "84"
       highlight:
