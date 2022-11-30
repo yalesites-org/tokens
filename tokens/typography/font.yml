@@ -184,37 +184,37 @@ font:
     body:
       xl:
         size: "{ font.scale.23-29.value }"
-        line-height: "1.8"
+        line-height: "1.7"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-book.value }"
         value: "{ font.style.body.xl.weight } { font.style.body.xl.size }/{ font.style.body.xl.line-height } { font.style.body.xl.family }"
       l:
         size: "{ font.scale.20-26.value }"
-        line-height: "1.5"
+        line-height: "1.7"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-book.value }"
         value: "{ font.style.body.l.weight } { font.style.body.l.size }/{ font.style.body.l.line-height } { font.style.body.l.family }"
       default:
         size: "{ font.scale.17-20.value }"
-        line-height: "2"
+        line-height: "1.7"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-book.value }"
         value: "{ font.style.body.default.weight } { font.style.body.default.size }/{ font.style.body.default.line-height } { font.style.body.default.family }"
       default-condensed:
         size: "{ font.scale.17-20.value }"
-        line-height: "1.5"
+        line-height: "1.4"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-book.value }"
         value: "{ font.style.body.default-condensed.weight } { font.style.body.default-condensed.size }/{ font.style.body.default-condensed.line-height } { font.style.body.default-condensed.family }"
       s:
         size: "{ font.scale.15-16.value }"
-        line-height: "1.8"
+        line-height: "1.7"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-book.value }"
         value: "{ font.style.body.s.weight } { font.style.body.s.size }/{ font.style.body.s.line-height } { font.style.body.s.family }"
       s-condensed:
         size: "{ font.scale.15-16.value }"
-        line-height: "1.5"
+        line-height: "1.4"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-book.value }"
         value: "{ font.style.body.s-condensed.weight } { font.style.body.s-condensed.size }/{ font.style.body.s-condensed.line-height } { font.style.body.s-condensed.family }"
