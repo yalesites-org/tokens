@@ -53,9 +53,9 @@ font:
     h6-yale-new:
       value: "0.03em"
     h1-mallory-compact-medium:
-      value: "0.01em"
+      value: "-0.01em"
     h2-mallory-compact-medium:
-      value: "0.01em"
+      value: "-0.01em"
     h6-mallory-compact-medium:
       value: "0.02em"
     h1-mallory-compact-book:
@@ -64,6 +64,8 @@ font:
       value: "-0.01em"
     h6-mallory-compact-book:
       value: "0.02em"
+    yalenew-bold:
+      value: "0.01em"
   textTransform:
     h6-yale-new:
       value: "uppercase"
