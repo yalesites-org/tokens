@@ -53,9 +53,9 @@ font:
     h6-yale-new:
       value: "0.03em"
     h1-mallory-compact-medium:
-      value: "-0.01em"
+      value: "0.01em"
     h2-mallory-compact-medium:
-      value: "-0.01em"
+      value: "0.01em"
     h6-mallory-compact-medium:
       value: "0.02em"
     h1-mallory-compact-book:
@@ -75,13 +75,13 @@ font:
     heading:
       h1-yale-new:
         size: "{ font.scale.43-62.value }"
-        line-height: "1"
+        line-height: "1.1"
         family: "{ fontFamilies.yalenew.value }"
         weight: "{ font.weights.yalenew-roman.value }"
         value: "{ font.style.heading.h1-yale-new.weight } { font.style.heading.h1-yale-new.size }/{ font.style.heading.h1-yale-new.line-height} { font.style.heading.h1-yale-new.family }"
       h2-yale-new:
         size: "{ font.scale.36-52.value }"
-        line-height: "1"
+        line-height: "1.1"
         family: "{ fontFamilies.yalenew.value }"
         weight: "{ font.weights.yalenew-roman.value }"
         value: "{ font.style.heading.h2-yale-new.weight } { font.style.heading.h2-yale-new.size }/{ font.style.heading.h2-yale-new.line-height } { font.style.heading.h2-yale-new.family }"
