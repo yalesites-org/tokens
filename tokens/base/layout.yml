@@ -23,9 +23,9 @@ size:
   component-layout:
     width:
       max:
-        value: "100"
-      feature:
         value: "84"
+      feature:
+        value: "80"
       highlight:
         value: "65"
       content:
