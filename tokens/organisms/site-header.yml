@@ -51,6 +51,6 @@ site-header-layout:
     justify:
       value: "{layout.flex-position.space-between}"
     align:
-      value: "{layout.flex-position.baseline}"
+      value: "{layout.flex-position.right}"
     flex-direction:
       value: "row"
