@@ -239,6 +239,12 @@ font:
         family: "{ fontFamilies.yalenew.value }"
         weight: "{ font.weights.yalenew-roman.value }"
         value: "{ font.style.branding.site.weight } { font.style.branding.site.size }/{ font.style.branding.site.line-height } { font.style.branding.site.family }"
+      site-mobile:
+        size: "{ font.scale.20-24.value }"
+        line-height: "1"
+        family: "{ fontFamilies.yalenew.value }"
+        weight: "{ font.weights.yalenew-roman.value }"
+        value: "{ font.style.branding.site-mobile.weight } { font.style.branding.site-mobile.size }/{ font.style.branding.site-mobile.line-height } { font.style.branding.site-mobile.family }"
   spacing:
     paragraph:
       value: "1em"
