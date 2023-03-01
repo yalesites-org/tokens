@@ -48,7 +48,7 @@ component-themes:
       value: "{color.basic.white.value}"
     heading:
       value: "{color.basic.white.value}"
-global_themes:
+globalThemes:
   "one":
     slot-one:
       value: "{color.blue.yale.value}"
