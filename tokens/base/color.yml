@@ -50,6 +50,8 @@ component-themes:
       value: "{color.basic.white.value}"
 globalThemes:
   "one":
+    name:
+      value: "Old Blues"
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
@@ -61,6 +63,8 @@ globalThemes:
     slot-five:
       value: "{color.gray.800.value}"
   "two":
+    name:
+      value: "New Haven Green"
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
@@ -72,6 +76,8 @@ globalThemes:
     slot-five:
       value: "{color.gray.600.value}"
   "three":
+    name:
+      value: "Shoreline Summer"
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
@@ -83,6 +89,8 @@ globalThemes:
     slot-five:
       value: "{color.gray.600.value}"
   "four":
+    name:
+      value: "Elm City Nights"
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
@@ -94,6 +102,8 @@ globalThemes:
     slot-five:
       value: "{color.purple.primary.value}"
   "five":
+    name:
+      value: "Quiet Corner"
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
