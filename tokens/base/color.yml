@@ -48,6 +48,27 @@ component-themes:
       value: "{color.basic.white.value}"
     heading:
       value: "{color.basic.white.value}"
+  "one":
+    background:
+      value: "{color.blue.yale.value}"
+    text:
+      value: "{color.basic.white.value}"
+    heading:
+      value: "{color.basic.white.value}"
+  "two":
+    background:
+      value: "{color.blue.yale.value}"
+    text:
+      value: "{color.basic.white.value}"
+    heading:
+      value: "{color.basic.white.value}"
+  "three":
+    background:
+      value: "{color.blue.yale.value}"
+    text:
+      value: "{color.basic.white.value}"
+    heading:
+      value: "{color.basic.white.value}"
 globalThemes:
   "one":
     slot-one:
