@@ -1,0 +1,58 @@
+action-themes:
+  "one":
+    slot-one:
+      value: "{global-themes.one.slot-one.value}"
+    slot-two:
+      value: "{global-themes.one.slot-two.value}"
+    slot-three:
+      value: "{global-themes.one.slot-three.value}"
+    slot-four:
+      value: "{global-themes.one.slot-four.value}"
+    slot-five:
+      value: "{global-themes.one.slot-five.value}"
+    slot-six:
+      value: "{global-themes.one.slot-six.value}"
+    background:
+      value: "{global-themes.one.slot-one.value}"
+    text:
+      value: "{global-themes.one.slot-six.value}"
+    heading:
+      value: "{global-themes.one.slot-six.value}"
+  "two":
+    slot-one:
+      value: "{global-themes.two.slot-one.value}"
+    slot-two:
+      value: "{global-themes.two.slot-two.value}"
+    slot-three:
+      value: "{global-themes.two.slot-three.value}"
+    slot-four:
+      value: "{global-themes.two.slot-four.value}"
+    slot-five:
+      value: "{global-themes.two.slot-five.value}"
+    slot-six:
+      value: "{global-themes.two.slot-six.value}"
+    background:
+      value: "{global-themes.two.slot-four.value}"
+    text:
+      value: "{global-themes.two.slot-five.value}"
+    heading:
+      value: "{global-themes.two.slot-five.value}"
+  "three":
+    slot-one:
+      value: "{global-themes.three.slot-one.value}"
+    slot-two:
+      value: "{global-themes.three.slot-two.value}"
+    slot-three:
+      value: "{global-themes.three.slot-three.value}"
+    slot-four:
+      value: "{global-themes.three.slot-four.value}"
+    slot-five:
+      value: "{global-themes.three.slot-five.value}"
+    slot-six:
+      value: "{global-themes.three.slot-six.value}"
+    background:
+      value: "{global-themes.three.slot-five.value}"
+    text:
+      value: "{global-themes.three.slot-six.value}"
+    heading:
+      value: "{global-themes.three.slot-six.value}"

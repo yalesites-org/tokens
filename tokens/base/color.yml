@@ -48,42 +48,23 @@ component-themes:
       value: "{color.basic.white.value}"
     heading:
       value: "{color.basic.white.value}"
-  "one":
-    background:
-      value: "{color.blue.yale.value}"
-    text:
-      value: "{color.basic.white.value}"
-    heading:
-      value: "{color.basic.white.value}"
-  "two":
-    background:
-      value: "{color.blue.yale.value}"
-    text:
-      value: "{color.basic.white.value}"
-    heading:
-      value: "{color.basic.white.value}"
-  "three":
-    background:
-      value: "{color.blue.yale.value}"
-    text:
-      value: "{color.basic.white.value}"
-    heading:
-      value: "{color.basic.white.value}"
-globalThemes:
+global-themes:
   "one":
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.secondary.value}"
+      value: "{color.blue.medium.value}"
     slot-three:
       value: "{color.blue.light.value}"
     slot-four:
       value: "{color.gray.100.value}"
     slot-five:
       value: "{color.gray.800.value}"
+    slot-six:
+      value: "{color.basic.white.value}"
   "two":
     slot-one:
-      value: "{color.blue.yale.value}"
+      value: "{color.blue.medium.value}"
     slot-two:
       value: "{color.green.primary.value}"
     slot-three:
@@ -92,36 +73,44 @@ globalThemes:
       value: "{color.yellow.light.value}"
     slot-five:
       value: "{color.gray.600.value}"
+    slot-six:
+      value: "{color.basic.white.value}"
   "three":
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.secondary.value}"
+      value: "{color.blue.medium.value}"
     slot-three:
       value: "{color.orange.primary.value}"
     slot-four:
       value: "{color.yellow.primary.value}"
     slot-five:
       value: "{color.gray.600.value}"
+    slot-six:
+      value: "{color.basic.white.value}"
   "four":
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.secondary.value}"
+      value: "{color.blue.medium.value}"
     slot-three:
       value: "{color.purple.primary.value}"
     slot-four:
       value: "{color.gray.100.value}"
     slot-five:
       value: "{color.purple.primary.value}"
+    slot-six:
+      value: "{color.basic.white.value}"
   "five":
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.secondary.value}"
+      value: "{color.blue.medium.value}"
     slot-three:
       value: "{color.basic.brown-gray.value}"
     slot-four:
       value: "{color.gray.200.value}"
     slot-five:
       value: "{color.gray.600.value}"
+    slot-six:
+      value: "{color.basic.white.value}"

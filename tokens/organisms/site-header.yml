@@ -1,16 +1,5 @@
 site-header-themes:
-  gray-100:
-    background:
-      value: "{color.gray.100.value}"
-    yale-branding:
-      value: "{color.blue.yale.value}"
-    site-branding:
-      value: "{color.blue.yale.value}"
-    border-color:
-      value: "{color.blue.yale.value}"
-    divider-color:
-      value: "{color.gray.300.value}"
-  white:
+  one:
     background:
       value: "{color.basic.white.value}"
     yale-branding:
@@ -21,7 +10,18 @@ site-header-themes:
       value: "{color.blue.yale.value}"
     divider-color:
       value: "{color.gray.300.value}"
-  blue-yale:
+  two:
+    background:
+      value: "{color.gray.100.value}"
+    yale-branding:
+      value: "{color.blue.yale.value}"
+    site-branding:
+      value: "{color.blue.yale.value}"
+    border-color:
+      value: "{color.blue.yale.value}"
+    divider-color:
+      value: "{color.gray.300.value}"
+  three:
     background:
       value: "{color.blue.yale.value}"
     yale-branding:

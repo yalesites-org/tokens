@@ -14,3 +14,38 @@ site-footer-themes:
   white:
     border-color:
       value: "{color.blue.yale.value}"
+  one:
+    background:
+      value: "{global-themes.one.slot-six.value}"
+    border-color:
+      value: "{global-themes.one.slot-three.value}"
+    text-color:
+      value: "{global-themes.one.slot-five.value}"
+  two:
+    background:
+      value: "{global-themes.one.slot-six.value}"
+    border-color:
+      value: "{global-themes.two.slot-three.value}"
+    text-color:
+      value: "{global-themes.two.slot-five.value}"
+  three:
+    background:
+      value: "{global-themes.one.slot-six.value}"
+    border-color:
+      value: "{global-themes.three.slot-three.value}"
+    text-color:
+      value: "{global-themes.three.slot-five.value}"
+  four:
+    background:
+      value: "{global-themes.one.slot-five.value}"
+    border-color:
+      value: "{global-themes.four.slot-three.value}"
+    text-color:
+      value: "{global-themes.four.slot-six.value}"
+  five:
+    background:
+      value: "{global-themes.one.slot-five.value}"
+    border-color:
+      value: "{global-themes.five.slot-three.value}"
+    text-color:
+      value: "{global-themes.five.slot-six.value}"
