@@ -55,6 +55,16 @@ component-themes:
       value: "{color.basic.white.value}"
     heading:
       value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.secondary.value}"
+    slot-three:
+      value: "{color.blue.light.value}"
+    slot-four:
+      value: "{color.gray.100.value}"
+    slot-five:
+      value: "{color.gray.800.value}"
   "two":
     background:
       value: "{color.blue.yale.value}"
@@ -62,6 +72,16 @@ component-themes:
       value: "{color.basic.white.value}"
     heading:
       value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.green.primary.value}"
+    slot-three:
+      value: "{color.green.primary.value}"
+    slot-four:
+      value: "{color.yellow.light.value}"
+    slot-five:
+      value: "{color.gray.600.value}"
   "three":
     background:
       value: "{color.blue.yale.value}"
@@ -69,6 +89,16 @@ component-themes:
       value: "{color.basic.white.value}"
     heading:
       value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.secondary.value}"
+    slot-three:
+      value: "{color.orange.primary.value}"
+    slot-four:
+      value: "{color.yellow.primary.value}"
+    slot-five:
+      value: "{color.gray.600.value}"
 globalThemes:
   "one":
     slot-one:
