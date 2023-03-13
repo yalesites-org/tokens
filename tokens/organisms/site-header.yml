@@ -32,39 +32,6 @@ site-header-themes:
       value: "{color.blue.light.value}"
     divider-color:
       value: "{color.gray.500.value}"
-  gray-100:
-    background:
-      value: "{color.gray.100.value}"
-    yale-branding:
-      value: "{color.blue.yale.value}"
-    site-branding:
-      value: "{color.blue.yale.value}"
-    border-color:
-      value: "{color.blue.yale.value}"
-    divider-color:
-      value: "{color.gray.300.value}"
-  white:
-    background:
-      value: "{color.basic.white.value}"
-    yale-branding:
-      value: "{color.blue.yale.value}"
-    site-branding:
-      value: "{color.blue.yale.value}"
-    border-color:
-      value: "{color.blue.yale.value}"
-    divider-color:
-      value: "{color.gray.300.value}"
-  blue-yale:
-    background:
-      value: "{color.blue.yale.value}"
-    yale-branding:
-      value: "{color.blue.light.value}"
-    site-branding:
-      value: "{color.basic.white.value}"
-    border-color:
-      value: "{color.blue.light.value}"
-    divider-color:
-      value: "{color.gray.500.value}"
 site-header-layout:
   left:
     justify:
