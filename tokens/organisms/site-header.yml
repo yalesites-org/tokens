@@ -10,6 +10,12 @@ site-header-themes:
       value: "{color.blue.yale.value}"
     divider-color:
       value: "{color.gray.300.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.yale.value}"
+    slot-three:
+      value: "{color.blue.yale.value}"
   two:
     background:
       value: "{color.gray.100.value}"
@@ -21,6 +27,12 @@ site-header-themes:
       value: "{color.blue.yale.value}"
     divider-color:
       value: "{color.gray.300.value}"
+    slot-one:
+      value: "{color.gray.100.value}"
+    slot-two:
+      value: "{color.blue.yale.value}"
+    slot-three:
+      value: "{color.blue.light.value}"
   three:
     background:
       value: "{color.blue.yale.value}"
@@ -32,6 +44,12 @@ site-header-themes:
       value: "{color.blue.light.value}"
     divider-color:
       value: "{color.gray.500.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.light.value}"
+    slot-three:
+      value: "{color.blue.light.value}"
 site-header-layout:
   left:
     justify:
