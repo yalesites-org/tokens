@@ -1,10 +1,4 @@
 callout-themes:
-  blue-yale:
-    background-color:
-      value: "{color.blue.yale.value}"
-  gray-700:
-    background-color:
-      value: "{color.gray.700.value}"
   one:
     background:
       value: "{color.blue.yale.value}"
