@@ -186,7 +186,7 @@ font:
     body:
       xl:
         size: "{ font.scale.23-29.value }"
-        line-height: "1.7"
+        line-height: "1.5"
         family: "{ fontFamilies.mallory-compact.value }"
         weight: "{ font.weights.mallory-book.value }"
         value: "{ font.style.body.xl.weight } { font.style.body.xl.size }/{ font.style.body.xl.line-height } { font.style.body.xl.family }"
