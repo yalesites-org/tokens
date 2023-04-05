@@ -57,7 +57,7 @@ component-themes:
       value: "{color.yellow.primary.value}"
     slot-five:
       value: "{color.gray.600.value}"
-globalThemes:
+global-themes:
   "one":
     slot-one:
       value: "{color.blue.yale.value}"
