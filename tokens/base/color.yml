@@ -16,7 +16,7 @@ component-themes:
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.secondary.value}"
+      value: "{color.blue.medium.value}"
     slot-three:
       value: "{color.blue.light.value}"
     slot-four:
@@ -25,7 +25,7 @@ component-themes:
       value: "{color.gray.800.value}"
   "two":
     background:
-      value: "{color.blue.yale.value}"
+      value: "{color.blue.medium.value}"
     text:
       value: "{color.basic.white.value}"
     heading:
@@ -50,7 +50,7 @@ component-themes:
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.secondary.value}"
+      value: "{color.blue.medium.value}"
     slot-three:
       value: "{color.orange.primary.value}"
     slot-four:
@@ -62,7 +62,7 @@ global-themes:
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.secondary.value}"
+      value: "{color.blue.medium.value}"
     slot-three:
       value: "{color.blue.light.value}"
     slot-four:
@@ -71,7 +71,7 @@ global-themes:
       value: "{color.gray.800.value}"
   "two":
     slot-one:
-      value: "{color.blue.yale.value}"
+      value: "{color.blue.medium.value}"
     slot-two:
       value: "{color.green.primary.value}"
     slot-three:
@@ -84,7 +84,7 @@ global-themes:
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.secondary.value}"
+      value: "{color.blue.medium.value}"
     slot-three:
       value: "{color.orange.primary.value}"
     slot-four:
@@ -95,7 +95,7 @@ global-themes:
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.secondary.value}"
+      value: "{color.blue.medium.value}"
     slot-three:
       value: "{color.purple.primary.value}"
     slot-four:
@@ -106,7 +106,7 @@ global-themes:
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.secondary.value}"
+      value: "{color.blue.medium.value}"
     slot-three:
       value: "{color.basic.brown-gray.value}"
     slot-four:
