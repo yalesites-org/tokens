@@ -61,7 +61,7 @@ global-themes:
   "one":
     label:
       value: "Old Blues"
-    slots:
+    colors:
       slot-one:
         value: "{color.blue.yale.value}"
       slot-two:
@@ -75,7 +75,7 @@ global-themes:
   "two":
     label:
       value: "New Haven Green"
-    slots:
+    colors:
       slot-one:
         value: "{color.blue.medium.value}"
       slot-two:
@@ -89,7 +89,7 @@ global-themes:
   "three":
     label:
       value: "Shoreline Summer"
-    slots:
+    colors:
       slot-one:
         value: "{color.blue.yale.value}"
       slot-two:
@@ -103,7 +103,7 @@ global-themes:
   "four":
     label:
       value: "Elm City Nights"
-    slots:
+    colors:
       slot-one:
         value: "{color.blue.yale.value}"
       slot-two:
@@ -117,7 +117,7 @@ global-themes:
   "five":
     label:
       value: "Quiet Corner"
-    slots:
+    colors:
       slot-one:
         value: "{color.blue.yale.value}"
       slot-two:
