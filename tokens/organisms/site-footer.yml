@@ -38,7 +38,7 @@ site-footer-themes:
     slot-three:
       value: "{color.green.primary.value}"
     slot-four:
-      value: "{color.yellow.light.value}"
+      value: "{color.green.light.value}"
     slot-five:
       value: "{color.gray.600.value}"
   three:
