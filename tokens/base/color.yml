@@ -65,27 +65,27 @@ global-themes:
       slot-one:
         value: "{color.blue.yale.value}"
       slot-two:
-        value: "{color.blue.medium.value}"
+        value: "{color.blue.athens.value}"
       slot-three:
-        value: "{color.blue.light.value}"
+        value: "{color.blue.whipple.value}"
       slot-four:
-        value: "{color.gray.100.value}"
+        value: "{color.blue.yarmouth.value}"
       slot-five:
-        value: "{color.gray.800.value}"
+        value: "{color.gray.hale.value}"
   "two":
     label:
       value: "New Haven Green"
     colors:
       slot-one:
-        value: "{color.blue.medium.value}"
+        value: "{color.gray.700.value}"
       slot-two:
-        value: "{color.green.primary.value}"
+        value: "{color.green.sweet-basil.value}"
       slot-three:
-        value: "{color.green.primary.value}"
+        value: "{color.green.kennebunkport.value}"
       slot-four:
-        value: "{color.green.light.value}"
+        value: "{color.green.overcast.value}"
       slot-five:
-        value: "{color.gray.600.value}"
+        value: "{color.green.essex-green.value}"
   "three":
     label:
       value: "Shoreline Summer"
@@ -93,41 +93,13 @@ global-themes:
       slot-one:
         value: "{color.blue.yale.value}"
       slot-two:
-        value: "{color.blue.medium.value}"
+        value: "{color.blue.twilight.value}"
       slot-three:
-        value: "{color.orange.primary.value}"
+        value: "{color.orange.bryant.value}"
       slot-four:
-        value: "{color.yellow.primary.value}"
+        value: "{color.yellow.marblehead.value}"
       slot-five:
-        value: "{color.gray.600.value}"
-  "four":
-    label:
-      value: "Elm City Nights"
-    colors:
-      slot-one:
-        value: "{color.blue.yale.value}"
-      slot-two:
-        value: "{color.blue.medium.value}"
-      slot-three:
-        value: "{color.purple.primary.value}"
-      slot-four:
-        value: "{color.gray.100.value}"
-      slot-five:
-        value: "{color.purple.primary.value}"
-  "five":
-    label:
-      value: "Quiet Corner"
-    colors:
-      slot-one:
-        value: "{color.blue.yale.value}"
-      slot-two:
-        value: "{color.blue.medium.value}"
-      slot-three:
-        value: "{color.basic.brown-gray.value}"
-      slot-four:
-        value: "{color.gray.200.value}"
-      slot-five:
-        value: "{color.gray.600.value}"
+        value: "{color.blue.yorktown.value}"
 basic-themes:
   "gray-800":
     background:
