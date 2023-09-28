@@ -13,55 +13,55 @@ site-header-themes:
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.yale.value}"
+      value: "{color.blue.athens.value}"
     slot-three:
-      value: "{color.blue.yale.value}"
+      value: "{color.blue.whipple.value}"
     slot-four:
-      value: "{color.blue.yale.value}"
+      value: "{color.blue.yarmouth.value}"
     slot-five:
-      value: "{color.blue.yale.value}"
+      value: "{color.gray.hale.value}"
   two:
     background:
       value: "{color.gray.800.value}"
     yale-branding:
-      value: "{color.blue.light.value}"
+      value: "{color.blue.twilight.value}"
     site-branding:
       value: "{color.basic.white.value}"
     border-color:
-      value: "{color.blue.light.value}"
+      value: "{color.blue.twilight.value}"
     divider-color:
       value: "{color.gray.500.value}"
     slot-one:
-      value: "{color.blue.yale.value}"
+      value: "{color.gray.700.value}"
     slot-two:
-      value: "{color.blue.light.value}"
+      value: "{color.green.sweet-basil.value}"
     slot-three:
-      value: "{color.blue.light.value}"
+      value: "{color.green.kennebunkport.value}"
     slot-four:
-      value: "{color.blue.light.value}"
+      value: "{color.green.overcast.value}"
     slot-five:
-      value: "{color.blue.light.value}"
+      value: "{color.green.essex-green.value}"
   three:
     background:
       value: "{color.blue.yale.value}"
     yale-branding:
-      value: "{color.blue.light.value}"
+      value: "{color.blue.twilight.value}"
     site-branding:
       value: "{color.basic.white.value}"
     border-color:
-      value: "{color.blue.light.value}"
+      value: "{color.blue.twilight.value}"
     divider-color:
       value: "{color.gray.500.value}"
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.light.value}"
+      value: "{color.blue.twilight.value}"
     slot-three:
-      value: "{color.blue.light.value}"
+      value: "{color.orange.bryant.value}"
     slot-four:
-      value: "{color.blue.light.value}"
+      value: "{color.yellow.marblehead.value}"
     slot-five:
-      value: "{color.blue.light.value}"
+      value: "{color.blue.yorktown.value}"
 site-header-layout:
   left:
     justify:
