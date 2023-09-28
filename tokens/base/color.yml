@@ -25,7 +25,7 @@ component-themes:
       value: "{color.gray.hale.value}"
   "two":
     background:
-      value: "{color.blue.medium.value}"
+      value: "{color.gray.700.value}"
     text:
       value: "{color.basic.white.value}"
     heading:
