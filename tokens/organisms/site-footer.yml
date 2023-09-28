@@ -45,9 +45,9 @@ site-footer-themes:
     background-color:
       value: "{color.gray.100.value}"
     yale-branding:
-      value: "{color.blue.light.value}"
+      value: "{color.blue.whipple.value}"
     border-color:
-      value: "{color.blue.light.value}"
+      value: "{color.blue.whipple.value}"
     divider-color:
       value: "{color.gray.500.value}"
     text-color:
