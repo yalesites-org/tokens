@@ -149,33 +149,103 @@ button-cta-themes:
       value: "{color.blue.yale.value}"
     text:
       value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.athens.value}"
+    slot-three:
+      value: "{color.blue.whipple.value}"
+    slot-four:
+      value: "{color.blue.yarmouth.value}"
+    slot-five:
+      value: "{color.gray.hale.value}"
   "two":
     background:
       value: "{color.blue.athens.value}"
     text:
       value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.athens.value}"
+    slot-three:
+      value: "{color.blue.whipple.value}"
+    slot-four:
+      value: "{color.blue.yarmouth.value}"
+    slot-five:
+      value: "{color.gray.hale.value}"
   "three":
     background:
       value: "{color.blue.whipple.value}"
     text:
       value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.athens.value}"
+    slot-three:
+      value: "{color.blue.whipple.value}"
+    slot-four:
+      value: "{color.blue.yarmouth.value}"
+    slot-five:
+      value: "{color.gray.hale.value}"
   "four":
     background:
       value: "{color.blue.yarmouth.value}"
     text:
       value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.athens.value}"
+    slot-three:
+      value: "{color.blue.whipple.value}"
+    slot-four:
+      value: "{color.blue.yarmouth.value}"
+    slot-five:
+      value: "{color.gray.hale.value}"
   "five":
     background:
       value: "{color.gray.hale.value}"
     text:
       value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.athens.value}"
+    slot-three:
+      value: "{color.blue.whipple.value}"
+    slot-four:
+      value: "{color.blue.yarmouth.value}"
+    slot-five:
+      value: "{color.gray.hale.value}"
   "six":
     background:
       value: "{color.gray.800.value}"
     text:
       value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.athens.value}"
+    slot-three:
+      value: "{color.blue.whipple.value}"
+    slot-four:
+      value: "{color.blue.yarmouth.value}"
+    slot-five:
+      value: "{color.gray.hale.value}"
   "seven":
     background:
       value: "{color.blue.yale.value}"
     text:
       value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.athens.value}"
+    slot-three:
+      value: "{color.blue.whipple.value}"
+    slot-four:
+      value: "{color.blue.yarmouth.value}"
+    slot-five:
+      value: "{color.gray.hale.value}"
