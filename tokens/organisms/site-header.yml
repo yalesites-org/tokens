@@ -20,6 +20,12 @@ site-header-themes:
       value: "{color.blue.yarmouth.value}"
     slot-five:
       value: "{color.gray.hale.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
   two:
     background:
       value: "{color.gray.800.value}"
@@ -41,6 +47,12 @@ site-header-themes:
       value: "{color.green.overcast.value}"
     slot-five:
       value: "{color.green.essex-green.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
   three:
     background:
       value: "{color.blue.yale.value}"
@@ -62,6 +74,12 @@ site-header-themes:
       value: "{color.yellow.marblehead.value}"
     slot-five:
       value: "{color.blue.yorktown.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
 site-header-layout:
   left:
     justify:

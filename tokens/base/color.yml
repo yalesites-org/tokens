@@ -23,6 +23,12 @@ component-themes:
       value: "{color.blue.yarmouth.value}"
     slot-five:
       value: "{color.gray.hale.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
   "two":
     background:
       value: "{color.gray.700.value}"
@@ -40,6 +46,12 @@ component-themes:
       value: "{color.green.overcast.value}"
     slot-five:
       value: "{color.green.essex-green.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
   "three":
     background:
       value: "{color.blue.yale.value}"
@@ -57,6 +69,12 @@ component-themes:
       value: "{color.yellow.marblehead.value}"
     slot-five:
       value: "{color.blue.yorktown.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
 global-themes:
   "one":
     label:
@@ -72,6 +90,12 @@ global-themes:
         value: "{color.blue.yarmouth.value}"
       slot-five:
         value: "{color.gray.hale.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.800.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
   "two":
     label:
       value: "New Haven Green"
@@ -86,6 +110,12 @@ global-themes:
         value: "{color.green.overcast.value}"
       slot-five:
         value: "{color.green.essex-green.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.800.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
   "three":
     label:
       value: "Shoreline Summer"
@@ -100,6 +130,12 @@ global-themes:
         value: "{color.yellow.marblehead.value}"
       slot-five:
         value: "{color.blue.yorktown.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.800.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
 basic-themes:
   "gray-800":
     background:
@@ -159,6 +195,12 @@ button-cta-themes:
       value: "{color.blue.yarmouth.value}"
     slot-five:
       value: "{color.gray.hale.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
   "two":
     background:
       value: "{color.blue.athens.value}"
@@ -174,6 +216,12 @@ button-cta-themes:
       value: "{color.blue.yarmouth.value}"
     slot-five:
       value: "{color.gray.hale.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
   "three":
     background:
       value: "{color.blue.whipple.value}"
@@ -189,6 +237,12 @@ button-cta-themes:
       value: "{color.blue.yarmouth.value}"
     slot-five:
       value: "{color.gray.hale.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
   "four":
     background:
       value: "{color.blue.yarmouth.value}"
@@ -204,6 +258,12 @@ button-cta-themes:
       value: "{color.blue.yarmouth.value}"
     slot-five:
       value: "{color.gray.hale.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
   "five":
     background:
       value: "{color.gray.hale.value}"
@@ -219,6 +279,12 @@ button-cta-themes:
       value: "{color.blue.yarmouth.value}"
     slot-five:
       value: "{color.gray.hale.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
   "six":
     background:
       value: "{color.gray.800.value}"
@@ -234,6 +300,12 @@ button-cta-themes:
       value: "{color.blue.yarmouth.value}"
     slot-five:
       value: "{color.gray.hale.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
   "seven":
     background:
       value: "{color.blue.yale.value}"
@@ -249,3 +321,9 @@ button-cta-themes:
       value: "{color.blue.yarmouth.value}"
     slot-five:
       value: "{color.gray.hale.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
