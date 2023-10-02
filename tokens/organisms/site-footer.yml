@@ -13,11 +13,11 @@ site-footer-themes:
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.athens.value}"
+      value: "{color.blue.horizon.value}"
     slot-three:
-      value: "{color.blue.whipple.value}"
+      value: "{color.blue.shale.value}"
     slot-four:
-      value: "{color.blue.yarmouth.value}"
+      value: "{color.blue.pewter.value}"
     slot-five:
       value: "{color.gray.hale.value}"
     slot-six:
@@ -40,13 +40,13 @@ site-footer-themes:
     slot-one:
       value: "{color.gray.700.value}"
     slot-two:
-      value: "{color.green.sweet-basil.value}"
+      value: "{color.green.basil.value}"
     slot-three:
-      value: "{color.green.kennebunkport.value}"
+      value: "{color.green.ground.value}"
     slot-four:
-      value: "{color.green.overcast.value}"
+      value: "{color.green.fog.value}"
     slot-five:
-      value: "{color.green.essex-green.value}"
+      value: "{color.green.pine.value}"
     slot-six:
       value: "{color.blue.yale.value}"
     slot-seven:
@@ -57,9 +57,9 @@ site-footer-themes:
     background-color:
       value: "{color.gray.100.value}"
     yale-branding:
-      value: "{color.blue.whipple.value}"
+      value: "{color.blue.shale.value}"
     border-color:
-      value: "{color.blue.whipple.value}"
+      value: "{color.blue.shale.value}"
     divider-color:
       value: "{color.gray.500.value}"
     text-color:
@@ -67,13 +67,13 @@ site-footer-themes:
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.twilight.value}"
+      value: "{color.blue.royal.value}"
     slot-three:
-      value: "{color.orange.bryant.value}"
+      value: "{color.orange.peach.value}"
     slot-four:
-      value: "{color.yellow.marblehead.value}"
+      value: "{color.yellow.umbrella.value}"
     slot-five:
-      value: "{color.blue.yorktown.value}"
+      value: "{color.blue.slate.value}"
     slot-six:
       value: "{color.blue.yale.value}"
     slot-seven:
