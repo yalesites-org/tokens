@@ -13,9 +13,9 @@ site-footer-themes:
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.horizon.value}"
+      value: "{color.blue.medium.value}"
     slot-three:
-      value: "{color.blue.shale.value}"
+      value: "{color.blue.light.value}"
     slot-four:
       value: "{color.blue.pewter.value}"
     slot-five:
@@ -57,9 +57,9 @@ site-footer-themes:
     background-color:
       value: "{color.gray.100.value}"
     yale-branding:
-      value: "{color.blue.shale.value}"
+      value: "{color.blue.light.value}"
     border-color:
-      value: "{color.blue.shale.value}"
+      value: "{color.blue.light.value}"
     divider-color:
       value: "{color.gray.500.value}"
     text-color:
