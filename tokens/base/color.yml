@@ -16,13 +16,13 @@ component-themes:
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.horizon.value}"
+      value: "{color.blue.medium.value}"
     slot-three:
-      value: "{color.blue.shale.value}"
+      value: "{color.blue.light.value}"
     slot-four:
-      value: "{color.blue.pewter.value}"
+      value: "{color.gray.100.value}"
     slot-five:
-      value: "{color.gray.hale.value}"
+      value: "{color.gray.800.value}"
     slot-six:
       value: "{color.blue.yale.value}"
     slot-seven:
@@ -83,13 +83,13 @@ global-themes:
       slot-one:
         value: "{color.blue.yale.value}"
       slot-two:
-        value: "{color.blue.horizon.value}"
+        value: "{color.blue.medium.value}"
       slot-three:
-        value: "{color.blue.shale.value}"
+        value: "{color.blue.light.value}"
       slot-four:
-        value: "{color.blue.pewter.value}"
+        value: "{color.gray.100.value}"
       slot-five:
-        value: "{color.gray.hale.value}"
+        value: "{color.gray.800.value}"
       slot-six:
         value: "{color.blue.yale.value}"
       slot-seven:
@@ -188,9 +188,9 @@ button-cta-themes:
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.horizon.value}"
+      value: "{color.blue.medium.value}"
     slot-three:
-      value: "{color.blue.shale.value}"
+      value: "{color.blue.light.value}"
     slot-four:
       value: "{color.blue.pewter.value}"
     slot-five:
@@ -203,15 +203,15 @@ button-cta-themes:
       value: "{color.basic.white.value}"
   "two":
     background:
-      value: "{color.blue.horizon.value}"
+      value: "{color.blue.medium.value}"
     text:
       value: "{color.basic.white.value}"
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.horizon.value}"
+      value: "{color.blue.medium.value}"
     slot-three:
-      value: "{color.blue.shale.value}"
+      value: "{color.blue.light.value}"
     slot-four:
       value: "{color.blue.pewter.value}"
     slot-five:
@@ -224,15 +224,15 @@ button-cta-themes:
       value: "{color.basic.white.value}"
   "three":
     background:
-      value: "{color.blue.shale.value}"
+      value: "{color.blue.light.value}"
     text:
       value: "{color.basic.white.value}"
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.horizon.value}"
+      value: "{color.blue.medium.value}"
     slot-three:
-      value: "{color.blue.shale.value}"
+      value: "{color.blue.light.value}"
     slot-four:
       value: "{color.blue.pewter.value}"
     slot-five:
@@ -251,9 +251,9 @@ button-cta-themes:
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.horizon.value}"
+      value: "{color.blue.medium.value}"
     slot-three:
-      value: "{color.blue.shale.value}"
+      value: "{color.blue.light.value}"
     slot-four:
       value: "{color.blue.pewter.value}"
     slot-five:
@@ -272,9 +272,9 @@ button-cta-themes:
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.horizon.value}"
+      value: "{color.blue.medium.value}"
     slot-three:
-      value: "{color.blue.shale.value}"
+      value: "{color.blue.light.value}"
     slot-four:
       value: "{color.blue.pewter.value}"
     slot-five:
@@ -293,9 +293,9 @@ button-cta-themes:
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.horizon.value}"
+      value: "{color.blue.medium.value}"
     slot-three:
-      value: "{color.blue.shale.value}"
+      value: "{color.blue.light.value}"
     slot-four:
       value: "{color.blue.pewter.value}"
     slot-five:
@@ -314,9 +314,9 @@ button-cta-themes:
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:
-      value: "{color.blue.horizon.value}"
+      value: "{color.blue.medium.value}"
     slot-three:
-      value: "{color.blue.shale.value}"
+      value: "{color.blue.light.value}"
     slot-four:
       value: "{color.blue.pewter.value}"
     slot-five:
