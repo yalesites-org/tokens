@@ -10,6 +10,15 @@ color:
       value: "{color.blue.medium}"
     hover:
       value: "{color.gray.700}"
+    visited:
+      base:
+        value: "{color.purple.visited.value}"
+      hover:
+        value: "{color.purple.visited-hover.value}"
+      light:
+        value: "{color.purple.visited-light.value}"
+      light-hover:
+        value: "{color.purple.visited-light-hover.value}"
     theme:
       gray-800:
         base:
