@@ -150,6 +150,12 @@ global-themes:
         value: "{color.gray.100.value}"
       slot-five:
         value: "{color.gray.700.value}"
+      slot-six:
+        value: "{color.gray.800.value}"
+      slot-seven:
+        value: "{color.gray.800.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
   "five":
     label:
       value: "New Green"
@@ -164,6 +170,12 @@ global-themes:
         value: "{color.green.fog.value}"
       slot-five:
         value: "{color.green.pine.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.800.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
   "six":
     label:
       value: "New Green Option A"
@@ -178,6 +190,12 @@ global-themes:
         value: "{color.temp.optiona4.value}"
       slot-five:
         value: "{color.temp.optiona5.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.800.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
   "seven":
     label:
       value: "New Green Option B"
@@ -192,6 +210,12 @@ global-themes:
         value: "{color.temp.optionb4.value}"
       slot-five:
         value: "{color.temp.optionb5.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.800.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
   "eight":
     label:
       value: "New Green Option C"
@@ -206,6 +230,12 @@ global-themes:
         value: "{color.temp.optionc4.value}"
       slot-five:
         value: "{color.temp.optionc5.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.800.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
   "nine":
     label:
       value: "Yale Heraldry Option A"
@@ -220,6 +250,12 @@ global-themes:
         value: "{color.heraldry.optiona4.value}"
       slot-five:
         value: "{color.heraldry.optiona5.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.800.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
   "ten":
     label:
       value: "Yale Heraldry Option B"
@@ -234,6 +270,12 @@ global-themes:
         value: "{color.heraldry.optionb4.value}"
       slot-five:
         value: "{color.heraldry.optionb5.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.800.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
   "eleven":
     label:
       value: "Yale Heraldry Option C"
@@ -248,6 +290,12 @@ global-themes:
         value: "{color.heraldry.optionc4.value}"
       slot-five:
         value: "{color.heraldry.optionc5.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.800.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
 basic-themes:
   "gray-800":
     background:
