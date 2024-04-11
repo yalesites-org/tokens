@@ -136,6 +136,118 @@ global-themes:
         value: "{color.gray.800.value}"
       slot-eight:
         value: "{color.basic.white.value}"
+  "four":
+    label:
+      value: "Monochrome"
+    colors:
+      slot-one:
+        value: "{color.gray.800.value}"
+      slot-two:
+        value: "{color.gray.600.value}"
+      slot-three:
+        value: "{color.gray.400.value}"
+      slot-four:
+        value: "{color.gray.100.value}"
+      slot-five:
+        value: "{color.gray.700.value}"
+  "five":
+    label:
+      value: "New Green"
+    colors:
+      slot-one:
+        value: "{color.gray.700.value}"
+      slot-two:
+        value: "{color.green.basil.value}"
+      slot-three:
+        value: "{color.green.ground.value}"
+      slot-four:
+        value: "{color.green.fog.value}"
+      slot-five:
+        value: "{color.green.pine.value}"
+  "six":
+    label:
+      value: "New Green Option A"
+    colors:
+      slot-one:
+        value: "{color.temp.optiona1.value}"
+      slot-two:
+        value: "{color.temp.optiona2.value}"
+      slot-three:
+        value: "{color.temp.optiona3.value}"
+      slot-four:
+        value: "{color.temp.optiona4.value}"
+      slot-five:
+        value: "{color.temp.optiona5.value}"
+  "seven":
+    label:
+      value: "New Green Option B"
+    colors:
+      slot-one:
+        value: "{color.temp.optionb1.value}"
+      slot-two:
+        value: "{color.temp.optionb2.value}"
+      slot-three:
+        value: "{color.temp.optionb3.value}"
+      slot-four:
+        value: "{color.temp.optionb4.value}"
+      slot-five:
+        value: "{color.temp.optionb5.value}"
+  "eight":
+    label:
+      value: "New Green Option C"
+    colors:
+      slot-one:
+        value: "{color.temp.optionc1.value}"
+      slot-two:
+        value: "{color.temp.optionc2.value}"
+      slot-three:
+        value: "{color.temp.optionc3.value}"
+      slot-four:
+        value: "{color.temp.optionc4.value}"
+      slot-five:
+        value: "{color.temp.optionc5.value}"
+  "nine":
+    label:
+      value: "Yale Heraldry Option A"
+    colors:
+      slot-one:
+        value: "{color.heraldry.optiona1.value}"
+      slot-two:
+        value: "{color.heraldry.optiona2.value}"
+      slot-three:
+        value: "{color.heraldry.optiona3.value}"
+      slot-four:
+        value: "{color.heraldry.optiona4.value}"
+      slot-five:
+        value: "{color.heraldry.optiona5.value}"
+  "ten":
+    label:
+      value: "Yale Heraldry Option B"
+    colors:
+      slot-one:
+        value: "{color.heraldry.optionb1.value}"
+      slot-two:
+        value: "{color.heraldry.optionb2.value}"
+      slot-three:
+        value: "{color.heraldry.optionb3.value}"
+      slot-four:
+        value: "{color.heraldry.optionb4.value}"
+      slot-five:
+        value: "{color.heraldry.optionb5.value}"
+  "eleven":
+    label:
+      value: "Yale Heraldry Option C"
+    colors:
+      slot-one:
+        value: "{color.heraldry.optionc1.value}"
+      slot-two:
+        value: "{color.heraldry.optionc2.value}"
+      slot-three:
+        value: "{color.heraldry.optionc3.value}"
+      slot-four:
+        value: "{color.heraldry.optionc4.value}"
+      slot-five:
+        value: "{color.heraldry.optionc5.value}"
 basic-themes:
   "gray-800":
     background:
