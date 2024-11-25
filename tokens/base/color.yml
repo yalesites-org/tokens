@@ -204,6 +204,26 @@ global-themes:
         value: "{color.gray.900.value}"
       slot-eight:
         value: "{color.basic.white.value}"
+  "five":
+    label:
+      value: "Coral"
+    colors:
+      slot-one:
+        value: "{color.blue.yale.value}"
+      slot-two:
+        value: "{color.blue.medium.value}"
+      slot-three:
+        value: "{color.orange.coral.value}"
+      slot-four:
+        value: "{color.gray.100.value}"
+      slot-five:
+        value: "{color.blue.deep-teal.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.900.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
 basic-themes:
   "gray-800":
     background:
