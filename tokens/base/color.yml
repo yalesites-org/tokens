@@ -206,7 +206,7 @@ global-themes:
         value: "{color.basic.white.value}"
   "five":
     label:
-      value: "It's Your Yale"
+      value: "It’s Your Yale"
     colors:
       slot-one:
         value: "{color.blue.yale.value}"
