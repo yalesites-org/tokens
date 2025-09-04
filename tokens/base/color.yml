@@ -249,15 +249,15 @@ global-themes:
       value: "Whitney Humanities Center"
     colors:
       slot-one:
-        value: "{color.whc.plum.value}"
+        value: "{color.purple.plum.value}"
       slot-two:
-        value: "{color.whc.ocean.value}"
+        value: "{color.blue.ocean.value}"
       slot-three:
-        value: "{color.whc.mint.value}"
+        value: "{color.blue.mint.value}"
       slot-four:
-        value: "{color.whc.sand.value}"
+        value: "{color.brown.sand.value}"
       slot-five:
-        value: "{color.whc.mushroom.value}"
+        value: "{color.brown.mushroom.value}"
       slot-six:
         value: "{color.blue.yale.value}"
       slot-seven:
