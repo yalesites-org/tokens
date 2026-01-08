@@ -149,7 +149,7 @@ global-themes:
       value: "New Haven Green"
     colors:
       slot-one:
-        value: "{color.gray.700.value}"
+        value: "{color.gray.700-new.value}"
       slot-two:
         value: "{color.green.basil.value}"
       slot-three:
@@ -237,7 +237,7 @@ global-themes:
       slot-four:
         value: "{color.blue.light.value}"
       slot-five:
-        value: "{color.gray.700.value}"
+        value: "{color.gray.700-new.value}"
       slot-six:
         value: "{color.blue.yale.value}"
       slot-seven:
