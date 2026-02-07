@@ -193,9 +193,9 @@ global-themes:
       slot-two:
         value: "{color.blue.oceanic.value}"
       slot-three:
-        value: "{color.blue.soft.value}"
-      slot-four:
         value: "{color.yellow.onha.value}"
+      slot-four:
+        value: "{color.blue.soft.value}"
       slot-five:
         value: "{color.gray.500.value}"
       slot-six:
@@ -233,9 +233,9 @@ global-themes:
       slot-two:
         value: "{color.blue.medium.value}"
       slot-three:
-        value: "{color.yellow.ai-gold.value}"
-      slot-four:
         value: "{color.blue.light.value}"
+      slot-four:
+        value: "{color.yellow.ai-gold.value}"
       slot-five:
         value: "{color.gray.700.value}"
       slot-six:
