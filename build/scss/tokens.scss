@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Thu, 15 Jan 2026 19:56:38 GMT
+ * Generated on Mon, 09 Feb 2026 17:58:30 GMT
  */
 
 $link-underline-size-default: 0.125rem !default;
@@ -40,8 +40,7 @@ $color-blue-royal: hsl(221, 47%, 40%) !default;
 $color-blue-slate: hsl(188, 14%, 32%) !default;
 $color-blue-oceanic: hsl(175, 36%, 32%) !default;
 $color-blue-soft-oceanic: hsl(174, 57%, 93%) !default;
-$color-blue-soft: hsl(210, 59%, 93%) !default;
-$color-blue-onha-light: hsl(203, 50%, 94%) !default;
+$color-blue-soft: hsl(203, 50%, 94%) !default;
 $color-blue-deep-teal: hsl(210, 26%, 26%) !default;
 $color-green-basil: hsl(100, 13%, 36%) !default;
 $color-green-ground: hsl(87, 12%, 57%) !default;
@@ -116,7 +115,7 @@ $component-themes-four-heading: hsl(0, 0%, 100%) !default;
 $component-themes-four-colors-slot-one: hsl(210, 100%, 21%) !default;
 $component-themes-four-colors-slot-two: hsl(175, 36%, 32%) !default;
 $component-themes-four-colors-slot-three: hsl(46, 90%, 65%) !default;
-$component-themes-four-colors-slot-four: hsl(210, 59%, 93%) !default;
+$component-themes-four-colors-slot-four: hsl(203, 50%, 94%) !default;
 $component-themes-four-colors-slot-five: hsl(0, 0%, 46%) !default;
 $component-themes-four-colors-slot-six: hsl(210, 100%, 21%) !default;
 $component-themes-four-colors-slot-seven: hsl(0, 0%, 11%) !default;
@@ -127,7 +126,7 @@ $component-themes-five-heading: hsl(210, 100%, 21%) !default;
 $component-themes-five-colors-slot-one: hsl(210, 100%, 21%) !default;
 $component-themes-five-colors-slot-two: hsl(175, 36%, 32%) !default;
 $component-themes-five-colors-slot-three: hsl(46, 90%, 65%) !default;
-$component-themes-five-colors-slot-four: hsl(210, 59%, 93%) !default;
+$component-themes-five-colors-slot-four: hsl(203, 50%, 94%) !default;
 $component-themes-five-colors-slot-five: hsl(0, 0%, 46%) !default;
 $component-themes-five-colors-slot-six: hsl(210, 100%, 21%) !default;
 $component-themes-five-colors-slot-seven: hsl(0, 0%, 11%) !default;
@@ -162,8 +161,8 @@ $global-themes-three-colors-slot-eight: hsl(0, 0%, 100%) !default;
 $global-themes-four-label: Onha !default;
 $global-themes-four-colors-slot-one: hsl(210, 100%, 21%) !default;
 $global-themes-four-colors-slot-two: hsl(175, 36%, 32%) !default;
-$global-themes-four-colors-slot-three: hsl(203, 50%, 94%) !default;
-$global-themes-four-colors-slot-four: hsl(210, 59%, 93%) !default;
+$global-themes-four-colors-slot-three: hsl(46, 90%, 65%) !default;
+$global-themes-four-colors-slot-four: hsl(203, 50%, 94%) !default;
 $global-themes-four-colors-slot-five: hsl(0, 0%, 46%) !default;
 $global-themes-four-colors-slot-six: hsl(210, 100%, 21%) !default;
 $global-themes-four-colors-slot-seven: hsl(0, 0%, 11%) !default;
@@ -180,8 +179,8 @@ $global-themes-five-colors-slot-eight: hsl(0, 0%, 100%) !default;
 $global-themes-six-label: AI !default;
 $global-themes-six-colors-slot-one: hsl(210, 100%, 21%) !default;
 $global-themes-six-colors-slot-two: hsl(213, 66%, 45%) !default;
-$global-themes-six-colors-slot-three: hsl(45, 100%, 68%) !default;
-$global-themes-six-colors-slot-four: hsl(213, 100%, 69%) !default;
+$global-themes-six-colors-slot-three: hsl(213, 100%, 69%) !default;
+$global-themes-six-colors-slot-four: hsl(45, 100%, 68%) !default;
 $global-themes-six-colors-slot-five: hsl(0, 0%, 29%) !default;
 $global-themes-six-colors-slot-six: hsl(210, 100%, 21%) !default;
 $global-themes-six-colors-slot-seven: hsl(0, 0%, 13%) !default;
@@ -576,7 +575,6 @@ $tokens: (
       'oceanic': $color-blue-oceanic,
       'soft-oceanic': $color-blue-soft-oceanic,
       'soft': $color-blue-soft,
-      'onha-light': $color-blue-onha-light,
       'deep-teal': $color-blue-deep-teal
     ),
     'green': (
