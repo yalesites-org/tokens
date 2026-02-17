@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 09 Feb 2026 17:58:30 GMT
+ * Generated on Tue, 17 Feb 2026 20:10:18 GMT
  */
 
 :root {
@@ -129,8 +129,7 @@
   --color-basic-brown-gray: hsl(28, 7%, 44%);
   --color-basic-black: hsl(0, 0%, 0%);
   --color-basic-white: hsl(0, 0%, 100%);
-  --color-yellow-ai-gold: hsl(45, 100%, 68%);
-  --color-yellow-onha: hsl(46, 90%, 65%);
+  --color-yellow-yale-gold: hsl(45, 100%, 68%);
   --color-yellow-umbrella: hsl(43, 64%, 68%);
   --color-orange-coral: hsl(6, 100%, 66%);
   --color-orange-peach: hsl(36, 59%, 61%);
@@ -385,7 +384,7 @@
   --global-themes-six-colors-slot-seven: var(--color-gray-800);
   --global-themes-six-colors-slot-six: var(--color-blue-yale);
   --global-themes-six-colors-slot-five: var(--color-gray-700);
-  --global-themes-six-colors-slot-four: var(--color-yellow-ai-gold);
+  --global-themes-six-colors-slot-four: var(--color-yellow-yale-gold);
   --global-themes-six-colors-slot-three: var(--color-blue-light);
   --global-themes-six-colors-slot-two: var(--color-blue-medium);
   --global-themes-six-colors-slot-one: var(--color-blue-yale);
@@ -402,7 +401,7 @@
   --global-themes-four-colors-slot-six: var(--color-blue-yale);
   --global-themes-four-colors-slot-five: var(--color-gray-500);
   --global-themes-four-colors-slot-four: var(--color-blue-soft);
-  --global-themes-four-colors-slot-three: var(--color-yellow-onha);
+  --global-themes-four-colors-slot-three: var(--color-yellow-yale-gold);
   --global-themes-four-colors-slot-two: var(--color-blue-oceanic);
   --global-themes-four-colors-slot-one: var(--color-blue-yale);
   --global-themes-three-colors-slot-eight: var(--color-basic-white);
@@ -434,7 +433,7 @@
   --component-themes-five-colors-slot-six: var(--color-blue-yale);
   --component-themes-five-colors-slot-five: var(--color-gray-500);
   --component-themes-five-colors-slot-four: var(--color-blue-soft);
-  --component-themes-five-colors-slot-three: var(--color-yellow-onha);
+  --component-themes-five-colors-slot-three: var(--color-yellow-yale-gold);
   --component-themes-five-colors-slot-two: var(--color-blue-oceanic);
   --component-themes-five-colors-slot-one: var(--color-blue-yale);
   --component-themes-five-heading: var(--color-blue-yale);
@@ -445,7 +444,7 @@
   --component-themes-four-colors-slot-six: var(--color-blue-yale);
   --component-themes-four-colors-slot-five: var(--color-gray-500);
   --component-themes-four-colors-slot-four: var(--color-blue-soft);
-  --component-themes-four-colors-slot-three: var(--color-yellow-onha);
+  --component-themes-four-colors-slot-three: var(--color-yellow-yale-gold);
   --component-themes-four-colors-slot-two: var(--color-blue-oceanic);
   --component-themes-four-colors-slot-one: var(--color-blue-yale);
   --component-themes-four-heading: var(--color-basic-white);
