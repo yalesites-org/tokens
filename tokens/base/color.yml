@@ -88,7 +88,7 @@ component-themes:
       slot-two:
         value: "{color.blue.oceanic.value}"
       slot-three:
-        value: "{color.yellow.onha.value}"
+        value: "{color.yellow.yale-gold.value}"
       slot-four:
         value: "{color.blue.soft.value}"
       slot-five:
@@ -112,7 +112,7 @@ component-themes:
       slot-two:
         value: "{color.blue.oceanic.value}"
       slot-three:
-        value: "{color.yellow.onha.value}"
+        value: "{color.yellow.yale-gold.value}"
       slot-four:
         value: "{color.blue.soft.value}"
       slot-five:
@@ -193,7 +193,7 @@ global-themes:
       slot-two:
         value: "{color.blue.oceanic.value}"
       slot-three:
-        value: "{color.yellow.onha.value}"
+        value: "{color.yellow.yale-gold.value}"
       slot-four:
         value: "{color.blue.soft.value}"
       slot-five:
@@ -235,7 +235,7 @@ global-themes:
       slot-three:
         value: "{color.blue.light.value}"
       slot-four:
-        value: "{color.yellow.ai-gold.value}"
+        value: "{color.yellow.yale-gold.value}"
       slot-five:
         value: "{color.gray.700.value}"
       slot-six:
