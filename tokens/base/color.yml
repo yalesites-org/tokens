@@ -244,6 +244,26 @@ global-themes:
         value: "{color.gray.800.value}"
       slot-eight:
         value: "{color.basic.white.value}"
+  "seven":
+    label:
+      value: "Whitney Humanities Center"
+    colors:
+      slot-one:
+        value: "{color.purple.plum.value}"
+      slot-two:
+        value: "{color.blue.ocean.value}"
+      slot-three:
+        value: "{color.blue.mint.value}"
+      slot-four:
+        value: "{color.brown.sand.value}"
+      slot-five:
+        value: "{color.brown.mushroom.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.800.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
 basic-themes:
   "gray-800":
     background:
