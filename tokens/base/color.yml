@@ -144,6 +144,8 @@ global-themes:
         value: "{color.gray.800.value}"
       slot-eight:
         value: "{color.basic.white.value}"
+      slot-nine:
+        value: "{color.gray.100.value}"
   "two":
     label:
       value: "New Haven Green"
@@ -164,6 +166,8 @@ global-themes:
         value: "{color.gray.800.value}"
       slot-eight:
         value: "{color.basic.white.value}"
+      slot-nine:
+        value: "{color.gray.100.value}"
   "three":
     label:
       value: "Shoreline Summer"
@@ -184,6 +188,8 @@ global-themes:
         value: "{color.gray.800.value}"
       slot-eight:
         value: "{color.basic.white.value}"
+      slot-nine:
+        value: "{color.gray.100.value}"
   "four":
     label:
       value: "Onha"
@@ -204,6 +210,8 @@ global-themes:
         value: "{color.gray.900.value}"
       slot-eight:
         value: "{color.basic.white.value}"
+      slot-nine:
+        value: "{color.blue.soft-oceanic.value}"
   "five":
     label:
       value: "It’s Your Yale"
@@ -224,6 +232,8 @@ global-themes:
         value: "{color.gray.900.value}"
       slot-eight:
         value: "{color.basic.white.value}"
+      slot-nine:
+        value: "{color.gray.100.value}"
   "six":
     label:
       value: "AI"
@@ -244,6 +254,8 @@ global-themes:
         value: "{color.gray.800.value}"
       slot-eight:
         value: "{color.basic.white.value}"
+      slot-nine:
+        value: "{color.gray.100.value}"
   "seven":
     label:
       value: "Whitney Humanities Center"
@@ -264,6 +276,8 @@ global-themes:
         value: "{color.gray.800.value}"
       slot-eight:
         value: "{color.basic.white.value}"
+      slot-nine:
+        value: "{color.gray.100.value}"
 basic-themes:
   "gray-800":
     background:
