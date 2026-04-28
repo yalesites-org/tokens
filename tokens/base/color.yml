@@ -145,7 +145,7 @@ global-themes:
       slot-eight:
         value: "{color.basic.white.value}"
       slot-nine:
-        value: "{color.gray.100.value}"
+        value: "{color.gray.400.value}"
   "two":
     label:
       value: "New Haven Green"
@@ -233,7 +233,7 @@ global-themes:
       slot-eight:
         value: "{color.basic.white.value}"
       slot-nine:
-        value: "{color.gray.100.value}"
+        value: "{color.gray.400.value}"
   "six":
     label:
       value: "AI"
