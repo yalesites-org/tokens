@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 10 Apr 2026 18:04:46 GMT
+ * Generated on Tue, 28 Apr 2026 12:09:37 GMT
  */
 
 :root {
@@ -404,7 +404,7 @@
   --global-themes-six-colors-slot-three: var(--color-blue-light);
   --global-themes-six-colors-slot-two: var(--color-blue-medium);
   --global-themes-six-colors-slot-one: var(--color-blue-yale);
-  --global-themes-five-colors-slot-nine: var(--color-gray-100);
+  --global-themes-five-colors-slot-nine: var(--color-gray-400);
   --global-themes-five-colors-slot-eight: var(--color-basic-white);
   --global-themes-five-colors-slot-seven: var(--color-gray-900);
   --global-themes-five-colors-slot-six: var(--color-blue-yale);
@@ -440,7 +440,7 @@
   --global-themes-two-colors-slot-three: var(--color-green-ground);
   --global-themes-two-colors-slot-two: var(--color-green-basil);
   --global-themes-two-colors-slot-one: var(--color-gray-700);
-  --global-themes-one-colors-slot-nine: var(--color-gray-100);
+  --global-themes-one-colors-slot-nine: var(--color-gray-400);
   --global-themes-one-colors-slot-eight: var(--color-basic-white);
   --global-themes-one-colors-slot-seven: var(--color-gray-800);
   --global-themes-one-colors-slot-six: var(--color-blue-yale);
