@@ -82,23 +82,22 @@ component-themes:
       value: "{color.basic.white.value}"
     heading:
       value: "{color.basic.white.value}"
-    colors:
-      slot-one:
-        value: "{color.blue.yale.value}"
-      slot-two:
-        value: "{color.blue.oceanic.value}"
-      slot-three:
-        value: "{color.yellow.yale-gold.value}"
-      slot-four:
-        value: "{color.blue.soft.value}"
-      slot-five:
-        value: "{color.gray.500.value}"
-      slot-six:
-        value: "{color.blue.yale.value}"
-      slot-seven:
-        value: "{color.gray.900.value}"
-      slot-eight:
-        value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.oceanic.value}"
+    slot-three:
+      value: "{color.yellow.yale-gold.value}"
+    slot-four:
+      value: "{color.blue.soft.value}"
+    slot-five:
+      value: "{color.gray.500.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.900.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
   "five":
     background:
       value: "{color.blue.soft-oceanic.value}"
@@ -106,23 +105,22 @@ component-themes:
       value: "{color.blue.yale.value}"
     heading:
       value: "{color.blue.yale.value}"
-    colors:
-      slot-one:
-        value: "{color.blue.yale.value}"
-      slot-two:
-        value: "{color.blue.oceanic.value}"
-      slot-three:
-        value: "{color.yellow.yale-gold.value}"
-      slot-four:
-        value: "{color.blue.soft.value}"
-      slot-five:
-        value: "{color.gray.500.value}"
-      slot-six:
-        value: "{color.blue.yale.value}"
-      slot-seven:
-        value: "{color.gray.900.value}"
-      slot-eight:
-        value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.oceanic.value}"
+    slot-three:
+      value: "{color.yellow.yale-gold.value}"
+    slot-four:
+      value: "{color.blue.soft.value}"
+    slot-five:
+      value: "{color.gray.500.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.900.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
 global-themes:
   "one":
     label:
