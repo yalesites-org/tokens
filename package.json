@@ -17,7 +17,8 @@
     "build"
   ],
   "scripts": {
-    "build": "npm run transform && npm run style-dictionary:build",
+    "assert:shape": "node scripts/assert-token-shape.js",
+    "build": "npm run transform && npm run style-dictionary:build && npm run assert:shape",
     "develop": "chokidar 'tokens' -c 'npm run build' -i 'tokens/figma-transformed-tokens.json'",
     "husky:commit-msg": "commitlint --edit $1",
     "husky:pre-commit": "lint-staged",
