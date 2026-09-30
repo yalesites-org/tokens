@@ -3,9 +3,9 @@ site-footer-themes:
     background-color:
       value: "{color.basic.white.value}"
     yale-branding:
-      value: "{color.blue.yale.value}"
+      value: "{color.basic.black.value}"
     border-color:
-      value: "{color.blue.yale.value}"
+      value: "{site-footer-themes.one.slot-one.value}"
     divider-color:
       value: "{color.gray.300.value}"
     text-color:
@@ -28,15 +28,15 @@ site-footer-themes:
       value: "{color.basic.white.value}"
   two:
     background-color:
-      value: "{color.basic.white.value}"
+      value: "{color.gray.800.value}"
     yale-branding:
-      value: "{color.blue.yale.value}"
+      value: "{color.basic.white.value}"
     border-color:
-      value: "{color.blue.yale.value}"
+      value: "{site-footer-themes.two.slot-five.value}"
     divider-color:
-      value: "{color.gray.300.value}"
+      value: "{color.basic.white.value}"
     text-color:
-      value: "{color.basic.black.value}"
+      value: "{color.basic.white.value}"
     slot-one:
       value: "{color.gray.700.value}"
     slot-two:
@@ -55,15 +55,15 @@ site-footer-themes:
       value: "{color.basic.white.value}"
   three:
     background-color:
-      value: "{color.gray.100.value}"
+      value: "{color.blue.yale.value}"
     yale-branding:
-      value: "{color.blue.light.value}"
+      value: "{color.basic.white.value}"
     border-color:
-      value: "{color.blue.light.value}"
+      value: "{site-footer-themes.three.slot-three.value}"
     divider-color:
-      value: "{color.gray.500.value}"
+      value: "{color.basic.white.value}"
     text-color:
-      value: "{color.basic.black.value}"
+      value: "{color.basic.white.value}"
     slot-one:
       value: "{color.blue.yale.value}"
     slot-two:

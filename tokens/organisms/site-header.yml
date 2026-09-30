@@ -34,7 +34,7 @@ site-header-themes:
     site-branding:
       value: "{color.basic.white.value}"
     border-color:
-      value: "{color.blue.royal.value}"
+      value: "{site-header-themes.two.slot-three.value}"
     divider-color:
       value: "{color.gray.500.value}"
     slot-one:
@@ -61,7 +61,7 @@ site-header-themes:
     site-branding:
       value: "{color.basic.white.value}"
     border-color:
-      value: "{color.blue.royal.value}"
+      value: "{site-header-themes.three.slot-three.value}"
     divider-color:
       value: "{color.gray.500.value}"
     slot-one:
